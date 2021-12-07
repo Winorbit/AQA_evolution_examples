@@ -1,0 +1,1574 @@
+2021-07-03 22:44:52,031 INFO settings <module> 31 Logging started
+2021-07-03 22:44:52,589 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-03 22:44:52,589 INFO _internal _log 225  * Running on http://192.168.0.118:5000/ (Press CTRL+C to quit)
+2021-07-03 22:44:52,591 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:44:52,868 INFO settings <module> 31 Logging started
+2021-07-03 22:44:53,397 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:44:53,420 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:45:05,559 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:45:05] "[33mGET / HTTP/1.1[0m" 404 -
+2021-07-03 22:45:12,194 ERROR views posts 119 Something went wrong in loading posts: Object of type Post is not JSON serializable
+2021-07-03 22:45:12,195 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:45:12] "[31m[1mGET /posts HTTP/1.1[0m" 400 -
+2021-07-03 22:45:24,466 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:45:24] "[33mGET /posts/ HTTP/1.1[0m" 404 -
+2021-07-03 22:45:29,873 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:45:29] "[33mGET //posts/ HTTP/1.1[0m" 404 -
+2021-07-03 22:45:33,350 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:45:33] "[33mGET /posts/ HTTP/1.1[0m" 404 -
+2021-07-03 22:46:12,288 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:46:12,409 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:46:12,665 INFO settings <module> 31 Logging started
+2021-07-03 22:46:13,220 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:46:13,232 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:46:14,254 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:46:14,322 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:46:14,565 INFO settings <module> 31 Logging started
+2021-07-03 22:46:15,073 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:46:15,085 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:46:18,187 INFO settings <module> 31 Logging started
+2021-07-03 22:46:18,703 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-03 22:46:18,704 INFO _internal _log 225  * Running on http://192.168.0.118:5000/ (Press CTRL+C to quit)
+2021-07-03 22:46:18,706 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:46:18,978 INFO settings <module> 31 Logging started
+2021-07-03 22:46:19,510 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:46:19,521 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:46:22,273 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:46:22] "[33mGET /posts/ HTTP/1.1[0m" 404 -
+2021-07-03 22:47:07,438 INFO settings <module> 31 Logging started
+2021-07-03 22:47:07,991 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-03 22:47:07,991 INFO _internal _log 225  * Running on http://192.168.0.118:5000/ (Press CTRL+C to quit)
+2021-07-03 22:47:07,993 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:47:08,240 INFO settings <module> 31 Logging started
+2021-07-03 22:47:08,790 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:47:08,803 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:47:21,948 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/run.py', reloading
+2021-07-03 22:47:22,021 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:47:22,268 INFO settings <module> 31 Logging started
+2021-07-03 22:47:22,862 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:47:22,873 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:47:38,202 INFO settings <module> 31 Logging started
+2021-07-03 22:47:38,713 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 22:47:38,713 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:47:38,963 INFO settings <module> 31 Logging started
+2021-07-03 22:47:39,478 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:47:39,490 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:47:41,298 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:47:41] "[33mGET /posts/ HTTP/1.1[0m" 404 -
+2021-07-03 22:47:42,367 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:47:42] "[33mGET /posts/ HTTP/1.1[0m" 404 -
+2021-07-03 22:47:46,176 ERROR views posts 121 Something went wrong in loading posts: Object of type Post is not JSON serializable
+2021-07-03 22:47:46,178 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:47:46] "[31m[1mGET /posts HTTP/1.1[0m" 400 -
+2021-07-03 22:48:15,896 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:48:15,995 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:48:16,240 INFO settings <module> 31 Logging started
+2021-07-03 22:48:16,787 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:48:16,799 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:48:18,997 INFO settings <module> 31 Logging started
+2021-07-03 22:48:19,563 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 22:48:19,564 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:48:19,835 INFO settings <module> 31 Logging started
+2021-07-03 22:48:20,364 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:48:20,376 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:48:21,330 ERROR views posts 122 Something went wrong in loading posts: Object of type Post is not JSON serializable
+2021-07-03 22:48:21,333 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:48:21] "[31m[1mGET /posts HTTP/1.1[0m" 400 -
+2021-07-03 22:48:53,737 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:48:53,855 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:48:54,101 INFO settings <module> 31 Logging started
+2021-07-03 22:48:54,632 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:48:54,643 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:49:01,899 INFO settings <module> 31 Logging started
+2021-07-03 22:49:02,410 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 22:49:02,411 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:49:02,663 INFO settings <module> 31 Logging started
+2021-07-03 22:49:03,173 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:49:03,178 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:49:04,409 ERROR views posts 123 Something went wrong in loading posts: Object of type Post is not JSON serializable
+2021-07-03 22:49:04,412 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:49:04] "[31m[1mGET /posts HTTP/1.1[0m" 400 -
+2021-07-03 22:49:25,417 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:49:25,530 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:49:25,782 INFO settings <module> 31 Logging started
+2021-07-03 22:49:26,284 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:49:26,291 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:49:27,675 INFO settings <module> 31 Logging started
+2021-07-03 22:49:28,185 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 22:49:28,187 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:49:28,449 INFO settings <module> 31 Logging started
+2021-07-03 22:49:28,933 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:49:28,941 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:49:30,639 ERROR views posts 123 Something went wrong in loading posts: 'Post' object is not iterable
+2021-07-03 22:49:30,641 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:49:30] "[31m[1mGET /posts HTTP/1.1[0m" 400 -
+2021-07-03 22:49:43,113 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:49:43,209 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:49:43,452 INFO settings <module> 31 Logging started
+2021-07-03 22:49:44,007 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:49:44,022 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:49:55,161 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:49:55,226 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:49:55,478 INFO settings <module> 31 Logging started
+2021-07-03 22:49:56,004 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:49:56,015 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:49:58,762 INFO settings <module> 31 Logging started
+2021-07-03 22:49:59,318 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 22:49:59,319 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:49:59,586 INFO settings <module> 31 Logging started
+2021-07-03 22:50:00,124 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:50:00,135 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:50:01,374 ERROR views posts 123 Something went wrong in loading posts: Object of type DeclarativeMeta is not JSON serializable
+2021-07-03 22:50:01,377 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:50:01] "[31m[1mGET /posts HTTP/1.1[0m" 400 -
+2021-07-03 22:51:02,886 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:51:02,990 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:51:03,259 INFO settings <module> 31 Logging started
+2021-07-03 22:51:03,761 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:51:03,773 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:51:06,465 INFO settings <module> 31 Logging started
+2021-07-03 22:51:07,005 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 22:51:07,007 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:51:07,292 INFO settings <module> 31 Logging started
+2021-07-03 22:51:07,860 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:51:07,870 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:51:10,047 ERROR views posts 123 Something went wrong in loading posts: Object of type Post is not JSON serializable
+2021-07-03 22:51:10,048 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:51:10] "[31m[1mGET /posts HTTP/1.1[0m" 400 -
+2021-07-03 22:51:42,301 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:51:42,403 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:51:42,663 INFO settings <module> 31 Logging started
+2021-07-03 22:51:43,141 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:51:43,151 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:51:51,266 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:51:51,337 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:51:51,596 INFO settings <module> 31 Logging started
+2021-07-03 22:51:52,133 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:51:52,145 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:51:55,805 INFO settings <module> 31 Logging started
+2021-07-03 22:51:56,358 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 22:51:56,360 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:51:56,642 INFO settings <module> 31 Logging started
+2021-07-03 22:51:57,173 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:51:57,181 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:51:59,723 ERROR views posts 124 Something went wrong in loading posts: Object of type Post is not JSON serializable
+2021-07-03 22:51:59,725 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:51:59] "[31m[1mGET /posts HTTP/1.1[0m" 400 -
+2021-07-03 22:52:44,821 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:52:44,913 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:52:45,178 INFO settings <module> 31 Logging started
+2021-07-03 22:52:45,687 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:52:45,697 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:52:46,719 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:52:46,790 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:52:47,057 INFO settings <module> 31 Logging started
+2021-07-03 22:52:48,248 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:52:48,257 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:52:50,532 INFO settings <module> 31 Logging started
+2021-07-03 22:52:51,075 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 22:52:51,076 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:52:51,358 INFO settings <module> 31 Logging started
+2021-07-03 22:52:51,878 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:52:51,887 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:52:53,229 ERROR views posts 124 Something went wrong in loading posts: Object of type Post is not JSON serializable
+2021-07-03 22:52:53,230 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:52:53] "[31m[1mGET /posts HTTP/1.1[0m" 400 -
+2021-07-03 22:53:33,424 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:53:33,517 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:53:33,789 INFO settings <module> 31 Logging started
+2021-07-03 22:53:34,271 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:53:34,276 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:53:37,316 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:53:37,394 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:53:37,658 INFO settings <module> 31 Logging started
+2021-07-03 22:53:38,194 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:53:38,204 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:53:40,382 INFO settings <module> 31 Logging started
+2021-07-03 22:53:40,922 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 22:53:40,924 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:53:41,207 INFO settings <module> 31 Logging started
+2021-07-03 22:53:41,733 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:53:41,744 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:53:42,892 ERROR views posts 124 Something went wrong in loading posts: Object of type Post is not JSON serializable
+2021-07-03 22:53:42,894 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:53:42] "[31m[1mGET /posts HTTP/1.1[0m" 400 -
+2021-07-03 22:55:41,165 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:55:41,258 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:55:41,515 INFO settings <module> 31 Logging started
+2021-07-03 22:55:42,040 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:55:42,046 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:55:43,512 INFO settings <module> 31 Logging started
+2021-07-03 22:55:44,016 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 22:55:44,018 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:55:44,301 INFO settings <module> 31 Logging started
+2021-07-03 22:55:44,824 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:55:44,836 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:55:47,442 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:55:47] "[35m[1mGET /posts HTTP/1.1[0m" 500 -
+2021-07-03 22:55:47,469 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:55:47] "GET /posts?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-07-03 22:55:47,470 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:55:47] "GET /posts?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-07-03 22:55:47,479 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:55:47] "GET /posts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-03 22:59:23,313 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:59:23,380 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:59:23,647 INFO settings <module> 31 Logging started
+2021-07-03 22:59:24,280 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:59:24,292 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:59:25,315 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:59:25,400 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:59:25,673 INFO settings <module> 31 Logging started
+2021-07-03 22:59:26,149 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:59:26,155 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:59:29,659 INFO settings <module> 31 Logging started
+2021-07-03 22:59:30,244 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 22:59:30,244 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:59:30,511 INFO settings <module> 31 Logging started
+2021-07-03 22:59:31,031 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:59:31,040 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:59:33,854 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:59:33] "[35m[1mGET /posts HTTP/1.1[0m" 500 -
+2021-07-03 22:59:33,877 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:59:33] "GET /posts?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-07-03 22:59:33,877 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:59:33] "GET /posts?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-07-03 22:59:33,888 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:59:33] "GET /posts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-03 22:59:51,309 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 22:59:51,375 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:59:51,640 INFO settings <module> 31 Logging started
+2021-07-03 22:59:52,176 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:59:52,187 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:59:54,792 INFO settings <module> 31 Logging started
+2021-07-03 22:59:55,324 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 22:59:55,326 INFO _internal _log 225  * Restarting with stat
+2021-07-03 22:59:55,610 INFO settings <module> 31 Logging started
+2021-07-03 22:59:56,161 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 22:59:56,172 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 22:59:57,906 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:59:57] "[35m[1mGET /posts HTTP/1.1[0m" 500 -
+2021-07-03 22:59:57,936 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:59:57] "GET /posts?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-07-03 22:59:57,937 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:59:57] "GET /posts?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-07-03 22:59:57,951 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:59:57] "GET /posts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-03 22:59:57,953 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 22:59:57] "GET /posts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-03 23:13:33,703 INFO settings <module> 31 Logging started
+2021-07-03 23:13:34,225 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 23:13:34,226 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:13:34,474 INFO settings <module> 31 Logging started
+2021-07-03 23:13:35,012 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:13:35,024 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:14:06,385 INFO settings <module> 31 Logging started
+2021-07-03 23:14:06,997 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 23:14:06,999 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:14:07,266 INFO settings <module> 31 Logging started
+2021-07-03 23:14:07,812 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:14:07,824 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:14:13,427 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:14:13] "[35m[1mGET /posts HTTP/1.1[0m" 500 -
+2021-07-03 23:14:13,460 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:14:13] "GET /posts?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-07-03 23:14:13,462 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:14:13] "GET /posts?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-07-03 23:14:13,477 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:14:13] "GET /posts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-03 23:14:55,384 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/models.py', reloading
+2021-07-03 23:14:55,457 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:14:55,710 INFO settings <module> 31 Logging started
+2021-07-03 23:14:56,208 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:14:56,220 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:14:59,811 INFO settings <module> 31 Logging started
+2021-07-03 23:15:00,369 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 23:15:00,371 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:15:00,632 INFO settings <module> 31 Logging started
+2021-07-03 23:15:01,160 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:15:01,169 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:15:02,888 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:15:02] "[35m[1mGET /posts HTTP/1.1[0m" 500 -
+2021-07-03 23:15:02,934 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:15:02] "GET /posts?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-07-03 23:15:02,935 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:15:02] "GET /posts?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-07-03 23:15:02,948 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:15:02] "GET /posts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-07-03 23:15:19,379 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 23:15:19,489 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:15:19,744 INFO settings <module> 31 Logging started
+2021-07-03 23:15:20,294 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:15:20,305 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:15:30,157 INFO settings <module> 31 Logging started
+2021-07-03 23:15:30,657 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 23:15:30,658 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:15:30,914 INFO settings <module> 31 Logging started
+2021-07-03 23:15:31,429 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:15:31,438 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:15:33,686 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:15:33] "GET /posts HTTP/1.1" 200 -
+2021-07-03 23:30:09,455 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 23:30:09,580 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:30:09,827 INFO settings <module> 31 Logging started
+2021-07-03 23:30:10,336 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:30:10,350 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:31:21,104 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 23:31:21,172 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:31:21,418 INFO settings <module> 31 Logging started
+2021-07-03 23:31:21,942 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:31:21,953 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:31:33,091 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 23:31:33,158 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:31:33,402 INFO settings <module> 31 Logging started
+2021-07-03 23:31:33,931 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:31:33,942 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:31:43,618 INFO settings <module> 31 Logging started
+2021-07-03 23:31:44,154 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 23:31:44,155 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:31:44,425 INFO settings <module> 31 Logging started
+2021-07-03 23:31:44,961 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:31:44,972 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:31:46,759 ERROR views posts 120 Something went wrong in loading posts: Object of type Post is not JSON serializable
+2021-07-03 23:31:46,762 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:31:46] "[31m[1mGET /posts HTTP/1.1[0m" 400 -
+2021-07-03 23:31:48,463 ERROR views posts 120 Something went wrong in loading posts: Object of type Post is not JSON serializable
+2021-07-03 23:31:48,464 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:31:48] "[31m[1mGET /posts HTTP/1.1[0m" 400 -
+2021-07-03 23:32:21,375 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 23:32:21,521 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:32:21,769 INFO settings <module> 31 Logging started
+2021-07-03 23:32:22,307 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:32:22,320 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:32:23,278 INFO settings <module> 31 Logging started
+2021-07-03 23:32:23,822 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 23:32:23,824 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:32:24,100 INFO settings <module> 31 Logging started
+2021-07-03 23:32:24,679 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:32:24,691 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:32:26,201 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:32:26] "GET /posts HTTP/1.1" 200 -
+2021-07-03 23:32:31,788 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 23:32:31,886 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:32:32,129 INFO settings <module> 31 Logging started
+2021-07-03 23:32:32,613 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:32:32,625 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:32:35,305 INFO settings <module> 31 Logging started
+2021-07-03 23:32:35,809 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 23:32:35,811 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:32:36,058 INFO settings <module> 31 Logging started
+2021-07-03 23:32:36,614 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:32:36,624 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:32:37,877 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:32:37] "GET /posts HTTP/1.1" 200 -
+2021-07-03 23:32:43,881 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:32:43] "GET /posts/5 HTTP/1.1" 200 -
+2021-07-03 23:33:41,321 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 23:33:41,476 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:33:41,724 INFO settings <module> 31 Logging started
+2021-07-03 23:33:42,230 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:33:42,238 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:42:03,183 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 23:42:03,238 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:42:36,769 INFO settings <module> 31 Logging started
+2021-07-03 23:42:37,301 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 23:42:37,302 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:42:37,550 INFO settings <module> 31 Logging started
+2021-07-03 23:42:38,066 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:42:38,077 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:42:40,633 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:42:40] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2021-07-03 23:43:03,363 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 23:43:03,406 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:43:03,647 INFO settings <module> 31 Logging started
+2021-07-03 23:43:04,185 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:43:04,197 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:43:10,270 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 23:43:10,316 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:43:10,570 INFO settings <module> 31 Logging started
+2021-07-03 23:43:11,067 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:43:11,073 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:43:12,821 INFO settings <module> 31 Logging started
+2021-07-03 23:43:13,328 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 23:43:13,330 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:43:13,603 INFO settings <module> 31 Logging started
+2021-07-03 23:43:14,093 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:43:14,102 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:43:15,470 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:43:15] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2021-07-03 23:44:18,822 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 23:44:18,890 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:44:19,139 INFO settings <module> 31 Logging started
+2021-07-03 23:44:19,630 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:44:19,637 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:44:21,731 INFO settings <module> 31 Logging started
+2021-07-03 23:44:22,214 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 23:44:22,215 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:44:22,463 INFO settings <module> 31 Logging started
+2021-07-03 23:44:22,958 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:44:22,968 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:44:24,902 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:44:24] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2021-07-03 23:44:49,264 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-03 23:44:49,313 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:57:57,261 INFO settings <module> 31 Logging started
+2021-07-03 23:59:08,904 INFO settings <module> 31 Logging started
+2021-07-03 23:59:09,431 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-03 23:59:09,431 INFO _internal _log 225  * Restarting with stat
+2021-07-03 23:59:09,766 INFO settings <module> 31 Logging started
+2021-07-03 23:59:10,274 WARNING _internal _log 225  * Debugger is active!
+2021-07-03 23:59:10,279 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-03 23:59:27,144 INFO views signup 28 New user NewUser created.
+2021-07-03 23:59:27,163 INFO _internal _log 225 127.0.0.1 - - [03/Jul/2021 23:59:27] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2021-07-04 00:00:15,057 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 00:00:15,118 INFO _internal _log 225  * Restarting with stat
+2021-07-04 00:00:15,387 INFO settings <module> 31 Logging started
+2021-07-04 00:00:15,891 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 00:00:15,898 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 00:00:17,217 INFO settings <module> 31 Logging started
+2021-07-04 00:00:17,742 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 00:00:17,744 INFO _internal _log 225  * Restarting with stat
+2021-07-04 00:00:18,029 INFO settings <module> 31 Logging started
+2021-07-04 00:00:18,567 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 00:00:18,576 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 00:00:22,954 INFO views signup 28 New user NewUser created.
+2021-07-04 00:00:22,956 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 00:00:22] "[35m[1mPOST /signup HTTP/1.1[0m" 201 -
+2021-07-04 00:00:37,090 ERROR views get_users 53 Something went wrong in loading users: name 'users' is not defined
+2021-07-04 00:00:37,091 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 00:00:37] "[31m[1mGET /users HTTP/1.1[0m" 400 -
+2021-07-04 00:01:10,233 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 00:01:10,345 INFO _internal _log 225  * Restarting with stat
+2021-07-04 00:01:10,616 INFO settings <module> 31 Logging started
+2021-07-04 00:01:11,120 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 00:01:11,128 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 00:01:32,321 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 00:01:32] "GET /users/1 HTTP/1.1" 200 -
+2021-07-04 00:01:36,689 ERROR views get_users 53 Something went wrong in loading users: name 'users' is not defined
+2021-07-04 00:01:36,691 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 00:01:36] "[31m[1mGET /users HTTP/1.1[0m" 400 -
+2021-07-04 00:01:41,234 INFO settings <module> 31 Logging started
+2021-07-04 00:01:41,774 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 00:01:41,775 INFO _internal _log 225  * Restarting with stat
+2021-07-04 00:01:42,051 INFO settings <module> 31 Logging started
+2021-07-04 00:01:42,562 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 00:01:42,569 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 00:01:43,547 ERROR views get_users 53 Something went wrong in loading users: name 'users' is not defined
+2021-07-04 00:01:43,549 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 00:01:43] "[31m[1mGET /users HTTP/1.1[0m" 400 -
+2021-07-04 00:01:51,693 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 00:01:51,787 INFO _internal _log 225  * Restarting with stat
+2021-07-04 00:01:52,052 INFO settings <module> 31 Logging started
+2021-07-04 00:01:52,569 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 00:01:52,578 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 00:02:23,974 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 00:02:24,039 INFO _internal _log 225  * Restarting with stat
+2021-07-04 00:02:24,306 INFO settings <module> 31 Logging started
+2021-07-04 00:02:24,833 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 00:02:24,840 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 00:02:28,537 INFO settings <module> 31 Logging started
+2021-07-04 00:02:29,063 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 00:02:29,064 INFO _internal _log 225  * Restarting with stat
+2021-07-04 00:02:29,339 INFO settings <module> 31 Logging started
+2021-07-04 00:02:29,853 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 00:02:29,864 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 00:02:30,963 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 00:02:30] "GET /users HTTP/1.1" 200 -
+2021-07-04 00:03:21,456 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 00:03:21,588 INFO _internal _log 225  * Restarting with stat
+2021-07-04 00:03:21,883 INFO settings <module> 31 Logging started
+2021-07-04 00:03:22,424 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 00:03:22,433 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 00:12:13,576 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 00:12:13,644 INFO _internal _log 225  * Restarting with stat
+2021-07-04 01:49:06,329 INFO settings <module> 31 Logging started
+2021-07-04 01:49:06,828 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 01:49:06,828 INFO _internal _log 225  * Restarting with stat
+2021-07-04 01:49:07,095 INFO settings <module> 31 Logging started
+2021-07-04 01:49:07,593 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 01:49:07,602 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 01:49:11,379 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:49:11] "GET /users HTTP/1.1" 200 -
+2021-07-04 01:49:18,936 ERROR views get_post 67 Something went wrong in loading user 99 because : No row was found when one was required
+2021-07-04 01:49:18,938 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:49:18] "[31m[1mGET /users/99 HTTP/1.1[0m" 400 -
+2021-07-04 01:49:38,585 ERROR views get_post 67 Something went wrong in loading user 99 because : No row was found when one was required
+2021-07-04 01:49:38,587 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:49:38] "[31m[1mGET /users/99 HTTP/1.1[0m" 400 -
+2021-07-04 01:50:31,238 ERROR views get_post 67 Something went wrong in loading user 9 because : No row was found when one was required
+2021-07-04 01:50:31,240 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:50:31] "[31m[1mGET /users/9 HTTP/1.1[0m" 400 -
+2021-07-04 01:50:34,395 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:50:34] "GET /users/5 HTTP/1.1" 200 -
+2021-07-04 01:50:53,125 INFO settings <module> 31 Logging started
+2021-07-04 01:50:53,664 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 01:50:53,665 INFO _internal _log 225  * Restarting with stat
+2021-07-04 01:50:53,957 INFO settings <module> 31 Logging started
+2021-07-04 01:50:54,476 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 01:50:54,485 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 01:50:57,192 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:50:57] "GET /users/5 HTTP/1.1" 200 -
+2021-07-04 01:50:58,190 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:50:58] "GET /users/5 HTTP/1.1" 200 -
+2021-07-04 01:51:21,556 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:51:21] "GET /posts/5 HTTP/1.1" 200 -
+2021-07-04 01:51:24,482 ERROR views get_single_post 98 Something went wrong in loading post 588: No row was found when one was required
+2021-07-04 01:51:24,533 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:51:24] "[31m[1mGET /posts/588 HTTP/1.1[0m" 400 -
+2021-07-04 01:51:43,754 ERROR views get_single_post 98 Something went wrong in loading post 588: No row was found when one was required
+2021-07-04 01:51:43,755 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:51:43] "[31m[1mGET /posts/588 HTTP/1.1[0m" 400 -
+2021-07-04 01:51:52,785 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:51:52] "GET /posts/5 HTTP/1.1" 200 -
+2021-07-04 01:53:02,118 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 01:53:02,310 INFO _internal _log 225  * Restarting with stat
+2021-07-04 01:53:02,643 INFO settings <module> 31 Logging started
+2021-07-04 01:53:03,133 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 01:53:03,141 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 01:53:10,242 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 01:53:10,313 INFO _internal _log 225  * Restarting with stat
+2021-07-04 01:53:10,663 INFO settings <module> 31 Logging started
+2021-07-04 01:53:11,164 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 01:53:11,174 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 01:53:26,587 INFO settings <module> 31 Logging started
+2021-07-04 01:53:27,081 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 01:53:27,083 INFO _internal _log 225  * Restarting with stat
+2021-07-04 01:53:27,417 INFO settings <module> 31 Logging started
+2021-07-04 01:53:27,890 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 01:53:27,899 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 01:53:34,292 ERROR views get_single_post 102 Something went wrong in loading post 57: No row was found when one was required
+2021-07-04 01:53:34,294 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:53:34] "[31m[1mGET /posts/57 HTTP/1.1[0m" 400 -
+2021-07-04 01:54:34,714 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 01:54:34,820 INFO _internal _log 225  * Restarting with stat
+2021-07-04 01:54:35,134 INFO settings <module> 31 Logging started
+2021-07-04 01:54:35,659 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 01:54:35,667 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 01:54:38,258 INFO settings <module> 31 Logging started
+2021-07-04 01:54:38,778 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 01:54:38,779 INFO _internal _log 225  * Restarting with stat
+2021-07-04 01:54:39,057 INFO settings <module> 31 Logging started
+2021-07-04 01:54:39,569 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 01:54:39,579 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 01:54:40,615 ERROR views get_single_post 103 Something went wrong in loading post 57: No row was found when one was required
+2021-07-04 01:54:40,618 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:54:40] "[31m[1mGET /posts/57 HTTP/1.1[0m" 400 -
+2021-07-04 01:55:32,198 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 01:55:32,293 INFO _internal _log 225  * Restarting with stat
+2021-07-04 01:55:32,600 INFO settings <module> 31 Logging started
+2021-07-04 01:55:33,115 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 01:55:33,123 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 01:55:35,448 INFO settings <module> 31 Logging started
+2021-07-04 01:55:36,022 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 01:55:36,023 INFO _internal _log 225  * Restarting with stat
+2021-07-04 01:55:36,359 INFO settings <module> 31 Logging started
+2021-07-04 01:55:36,881 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 01:55:36,889 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 01:55:45,704 ERROR views get_single_post 103 Something went wrong in loading post 57: 'NoneType' object has no attribute 'serialize'
+2021-07-04 01:55:45,707 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 01:55:45] "[31m[1mGET /posts/57 HTTP/1.1[0m" 400 -
+2021-07-04 01:56:15,338 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 01:56:15,441 INFO _internal _log 225  * Restarting with stat
+2021-07-04 01:56:15,715 INFO settings <module> 31 Logging started
+2021-07-04 01:56:16,219 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 01:56:16,228 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 01:56:18,260 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 01:56:18,329 INFO _internal _log 225  * Restarting with stat
+2021-07-04 01:56:18,579 INFO settings <module> 31 Logging started
+2021-07-04 01:56:19,057 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 01:56:19,065 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:01:19,424 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:01:19,488 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:01:19,772 INFO settings <module> 31 Logging started
+2021-07-04 02:01:20,262 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:01:20,271 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:01:21,294 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:01:21,364 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:01:21,664 INFO settings <module> 31 Logging started
+2021-07-04 02:01:22,143 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:01:22,148 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:01:28,240 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:01:28,306 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:01:28,568 INFO settings <module> 31 Logging started
+2021-07-04 02:01:29,060 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:01:29,069 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:01:31,457 INFO settings <module> 31 Logging started
+2021-07-04 02:01:31,952 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 02:01:31,954 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:01:32,223 INFO settings <module> 31 Logging started
+2021-07-04 02:01:32,711 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:01:32,719 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:01:36,207 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:01:36] "[33mGET /posts/57 HTTP/1.1[0m" 404 -
+2021-07-04 02:01:43,592 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:01:43] "GET /posts/5 HTTP/1.1" 200 -
+2021-07-04 02:02:49,571 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:02:49] "GET /posts/5 HTTP/1.1" 200 -
+2021-07-04 02:03:33,811 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:03:33] "[33mGET /posts/555 HTTP/1.1[0m" 404 -
+2021-07-04 02:04:01,610 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:04:01,805 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:04:02,071 INFO settings <module> 31 Logging started
+2021-07-04 02:04:02,573 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:04:02,582 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:05:34,573 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:05:34,630 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:05:34,959 INFO settings <module> 31 Logging started
+2021-07-04 02:05:35,457 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:05:35,467 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:05:59,767 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:05:59,835 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:06:00,133 INFO settings <module> 31 Logging started
+2021-07-04 02:06:00,648 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:06:00,655 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:06:21,915 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:06:21,988 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:06:22,317 INFO settings <module> 31 Logging started
+2021-07-04 02:06:22,824 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:06:22,832 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:06:57,185 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:06:57,252 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:06:57,517 INFO settings <module> 31 Logging started
+2021-07-04 02:06:58,011 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:06:58,019 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:07:02,081 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:07:02,165 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:07:02,460 INFO settings <module> 31 Logging started
+2021-07-04 02:07:02,943 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:07:02,950 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:07:45,449 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:07:45,517 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:07:45,813 INFO settings <module> 31 Logging started
+2021-07-04 02:07:46,275 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:07:46,283 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:08:39,952 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:08:40,017 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:08:40,345 INFO settings <module> 31 Logging started
+2021-07-04 02:08:40,840 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:08:40,849 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:08:50,971 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:08:51,052 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:08:51,379 INFO settings <module> 31 Logging started
+2021-07-04 02:08:51,881 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:08:51,889 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:09:20,254 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:09:20,317 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:09:20,623 INFO settings <module> 31 Logging started
+2021-07-04 02:09:21,134 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:09:21,142 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:09:22,159 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:09:22,216 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:09:22,535 INFO settings <module> 31 Logging started
+2021-07-04 02:09:23,000 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:09:23,010 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:09:55,456 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:09:55,515 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:09:55,800 INFO settings <module> 31 Logging started
+2021-07-04 02:09:56,295 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:09:56,304 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:10:22,649 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:10:22,718 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:10:23,023 INFO settings <module> 31 Logging started
+2021-07-04 02:10:23,496 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:10:23,507 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:10:24,528 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:10:24,596 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:10:24,881 INFO settings <module> 31 Logging started
+2021-07-04 02:10:25,368 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:10:25,376 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:11:13,787 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:11:13,856 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:11:14,153 INFO settings <module> 31 Logging started
+2021-07-04 02:11:14,734 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:11:14,741 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:11:32,942 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:11:33,013 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:11:33,280 INFO settings <module> 31 Logging started
+2021-07-04 02:11:33,794 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:11:33,803 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:12:06,157 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:12:06,222 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:12:06,473 INFO settings <module> 31 Logging started
+2021-07-04 02:12:06,940 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:12:06,948 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:12:18,061 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:12:18,127 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:12:18,373 INFO settings <module> 31 Logging started
+2021-07-04 02:12:18,859 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:12:18,868 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:13:21,909 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:13:21] "GET /posts/5 HTTP/1.1" 200 -
+2021-07-04 02:18:15,202 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:18:15] "GET /posts HTTP/1.1" 200 -
+2021-07-04 02:18:48,160 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:18:48,290 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:18:48,637 INFO settings <module> 31 Logging started
+2021-07-04 02:18:49,120 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:18:49,129 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:18:50,146 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:18:50,221 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:18:50,501 INFO settings <module> 31 Logging started
+2021-07-04 02:18:50,980 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:18:50,985 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:19:07,187 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:19:07,257 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:19:07,544 INFO settings <module> 31 Logging started
+2021-07-04 02:19:08,040 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:19:08,049 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:19:11,306 INFO settings <module> 31 Logging started
+2021-07-04 02:19:11,799 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 02:19:11,799 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:19:12,072 INFO settings <module> 31 Logging started
+2021-07-04 02:19:12,575 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:19:12,584 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:19:16,833 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:19:16] "GET /posts HTTP/1.1" 200 -
+2021-07-04 02:22:32,952 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:22:33,076 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:22:33,362 INFO settings <module> 31 Logging started
+2021-07-04 02:22:33,878 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:22:33,887 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:22:57,149 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:22:57,215 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:22:57,483 INFO settings <module> 31 Logging started
+2021-07-04 02:22:57,969 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:22:57,977 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:22:59,001 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:22:59,070 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:22:59,339 INFO settings <module> 31 Logging started
+2021-07-04 02:22:59,818 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:22:59,825 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:23:08,939 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:23:09,009 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:23:09,323 INFO settings <module> 31 Logging started
+2021-07-04 02:23:09,809 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:23:09,817 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:23:18,924 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:23:18,993 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:23:19,332 INFO settings <module> 31 Logging started
+2021-07-04 02:23:19,831 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:23:19,841 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:35:07,715 INFO settings <module> 31 Logging started
+2021-07-04 02:35:08,211 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 02:35:08,212 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:35:08,483 INFO settings <module> 31 Logging started
+2021-07-04 02:35:08,980 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:35:08,989 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:35:30,249 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/settings.py', reloading
+2021-07-04 02:35:30,335 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:36:32,320 INFO settings <module> 31 Logging started
+2021-07-04 02:36:32,818 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 02:36:32,819 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:36:33,093 INFO settings <module> 31 Logging started
+2021-07-04 02:36:33,571 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:36:33,578 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:42:07,335 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/run.py', reloading
+2021-07-04 02:42:07,406 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:42:07,719 INFO settings <module> 31 Logging started
+2021-07-04 02:42:08,217 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:42:08,228 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:42:11,406 INFO settings <module> 31 Logging started
+2021-07-04 02:42:56,613 INFO settings <module> 31 Logging started
+2021-07-04 02:42:57,097 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 02:42:57,098 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:42:57,373 INFO settings <module> 31 Logging started
+2021-07-04 02:42:57,864 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:42:57,872 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:43:17,721 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:43:17] "GET /posts HTTP/1.1" 200 -
+2021-07-04 02:43:58,141 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:43:58] "GET /posts HTTP/1.1" 200 -
+2021-07-04 02:44:15,599 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:44:15] "GET /posts HTTP/1.1" 200 -
+2021-07-04 02:47:09,774 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:47:09] "GET /posts HTTP/1.1" 200 -
+2021-07-04 02:47:47,341 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:47:47] "GET /posts HTTP/1.1" 200 -
+2021-07-04 02:49:24,693 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:49:24] "GET /posts/5 HTTP/1.1" 200 -
+2021-07-04 02:56:10,125 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:56:10] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2021-07-04 02:57:12,810 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:57:12,987 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:57:13,278 INFO settings <module> 31 Logging started
+2021-07-04 02:57:13,767 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:57:13,777 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:57:17,212 INFO settings <module> 31 Logging started
+2021-07-04 02:57:17,702 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 02:57:17,703 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:57:18,051 INFO settings <module> 31 Logging started
+2021-07-04 02:57:18,530 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:57:18,539 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:57:24,208 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:57:24] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2021-07-04 02:57:45,886 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:57:45,959 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:57:46,225 INFO settings <module> 31 Logging started
+2021-07-04 02:57:46,729 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:57:46,740 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:58:15,962 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:58:16,032 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:58:16,334 INFO settings <module> 31 Logging started
+2021-07-04 02:58:16,816 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:58:16,825 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:58:20,044 INFO settings <module> 31 Logging started
+2021-07-04 02:58:20,534 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 02:58:20,535 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:58:20,814 INFO settings <module> 31 Logging started
+2021-07-04 02:58:21,275 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:58:21,282 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:58:27,144 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:58:27] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2021-07-04 02:58:55,726 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 02:58:55,795 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:58:56,134 INFO settings <module> 31 Logging started
+2021-07-04 02:58:56,655 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:58:56,665 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:58:58,591 INFO settings <module> 31 Logging started
+2021-07-04 02:58:59,065 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 02:58:59,066 INFO _internal _log 225  * Restarting with stat
+2021-07-04 02:58:59,340 INFO settings <module> 31 Logging started
+2021-07-04 02:58:59,816 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 02:58:59,824 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 02:59:02,242 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 02:59:02] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2021-07-04 03:02:14,442 INFO settings <module> 31 Logging started
+2021-07-04 03:02:14,928 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 03:02:14,929 INFO _internal _log 225  * Restarting with stat
+2021-07-04 03:02:15,181 INFO settings <module> 31 Logging started
+2021-07-04 03:02:15,682 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 03:02:15,691 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 03:02:22,188 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 03:02:22] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2021-07-04 03:30:39,342 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 03:30:39,401 INFO _internal _log 225  * Restarting with stat
+2021-07-04 03:30:39,677 INFO settings <module> 31 Logging started
+2021-07-04 03:30:40,164 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 03:30:40,173 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 03:30:44,768 INFO settings <module> 31 Logging started
+2021-07-04 03:30:45,251 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 03:30:45,252 INFO _internal _log 225  * Restarting with stat
+2021-07-04 03:30:45,541 INFO settings <module> 31 Logging started
+2021-07-04 03:30:46,044 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 03:30:46,053 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 03:30:52,582 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 03:30:52] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2021-07-04 03:33:01,587 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 03:33:01,657 INFO _internal _log 225  * Restarting with stat
+2021-07-04 03:33:01,900 INFO settings <module> 31 Logging started
+2021-07-04 03:33:02,391 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 03:33:02,401 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 03:33:09,463 INFO settings <module> 31 Logging started
+2021-07-04 03:33:09,949 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 03:33:09,951 INFO _internal _log 225  * Restarting with stat
+2021-07-04 03:33:10,239 INFO settings <module> 31 Logging started
+2021-07-04 03:33:10,739 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 03:33:10,748 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 03:33:13,444 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 03:33:13] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2021-07-04 03:33:54,217 INFO settings <module> 31 Logging started
+2021-07-04 03:33:54,707 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 03:33:54,708 INFO _internal _log 225  * Restarting with stat
+2021-07-04 03:33:54,967 INFO settings <module> 31 Logging started
+2021-07-04 03:33:55,451 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 03:33:55,461 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 03:35:03,993 INFO settings <module> 31 Logging started
+2021-07-04 03:35:04,508 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 03:35:04,509 INFO _internal _log 225  * Restarting with stat
+2021-07-04 03:35:04,759 INFO settings <module> 31 Logging started
+2021-07-04 03:35:05,261 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 03:35:05,270 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 03:35:07,442 INFO settings <module> 31 Logging started
+2021-07-04 03:35:07,925 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 03:35:07,926 INFO _internal _log 225  * Restarting with stat
+2021-07-04 03:35:08,194 INFO settings <module> 31 Logging started
+2021-07-04 03:35:08,661 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 03:35:08,670 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 03:36:37,717 INFO settings <module> 31 Logging started
+2021-07-04 03:36:38,207 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 03:36:38,208 INFO _internal _log 225  * Restarting with stat
+2021-07-04 03:36:38,473 INFO settings <module> 31 Logging started
+2021-07-04 03:36:38,939 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 03:36:38,948 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 03:38:13,108 INFO views signup 32 New user bip created.
+2021-07-04 03:38:13,109 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 03:38:13] "[35m[1mPOST /signup HTTP/1.1[0m" 201 -
+2021-07-04 03:38:54,470 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 03:38:54] "GET /users HTTP/1.1" 200 -
+2021-07-04 03:45:39,185 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 03:45:39,284 INFO _internal _log 225  * Restarting with stat
+2021-07-04 03:45:39,532 INFO settings <module> 31 Logging started
+2021-07-04 03:49:23,793 INFO settings <module> 31 Logging started
+2021-07-04 03:49:46,424 INFO settings <module> 31 Logging started
+2021-07-04 03:49:46,925 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 03:49:46,926 INFO _internal _log 225  * Restarting with stat
+2021-07-04 03:49:47,188 INFO settings <module> 31 Logging started
+2021-07-04 03:49:47,671 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 03:49:47,680 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 04:03:23,080 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 04:03:23] "GET /users/user_by_name/egor HTTP/1.1" 200 -
+2021-07-04 04:54:06,875 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 04:54:06] "GET /users/8 HTTP/1.1" 200 -
+2021-07-04 12:20:29,225 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:20:29,286 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-xJXRl5_Q/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-xJXRl5_Q/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-xJXRl5_Q/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2021-07-04 12:20:29,313 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-xJXRl5_Q/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-xJXRl5_Q/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-xJXRl5_Q/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2021-07-04 12:20:29,373 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:20:29,623 INFO settings <module> 31 Logging started
+2021-07-04 12:20:30,148 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:20:30,157 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:25:13,271 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:25:13,343 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:25:13,622 INFO settings <module> 31 Logging started
+2021-07-04 12:25:14,230 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:25:14,238 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:25:16,272 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:25:16,345 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:25:16,628 INFO settings <module> 31 Logging started
+2021-07-04 12:25:17,122 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:25:17,128 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:25:28,269 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:25:28,334 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:25:28,683 INFO settings <module> 31 Logging started
+2021-07-04 12:25:29,282 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:25:29,289 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:25:53,581 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:25:53,650 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:25:53,974 INFO settings <module> 31 Logging started
+2021-07-04 12:25:54,511 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:25:54,519 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:26:02,637 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:26:02,711 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:26:03,017 INFO settings <module> 31 Logging started
+2021-07-04 12:26:03,529 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:26:03,536 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:28:17,260 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:28:17,324 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:28:17,671 INFO settings <module> 31 Logging started
+2021-07-04 12:28:18,170 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:28:18,179 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:28:29,739 INFO settings <module> 31 Logging started
+2021-07-04 12:28:30,237 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 12:28:30,238 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:28:30,635 INFO settings <module> 31 Logging started
+2021-07-04 12:28:31,153 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:28:31,160 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:29:34,806 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:29:34,876 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:29:35,160 INFO settings <module> 31 Logging started
+2021-07-04 12:29:35,666 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:29:35,675 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:30:06,088 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:30:06] "[33mGET / HTTP/1.1[0m" 404 -
+2021-07-04 12:30:06,122 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:30:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-07-04 12:30:18,673 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:30:18] "GET /users/user_by_name/egor HTTP/1.1" 200 -
+2021-07-04 12:30:39,890 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:30:39] "GET /posts HTTP/1.1" 200 -
+2021-07-04 12:34:21,191 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:34:21,332 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:34:21,648 INFO settings <module> 31 Logging started
+2021-07-04 12:34:22,518 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:34:22,526 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:34:54,888 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:34:54,957 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:34:55,312 INFO settings <module> 31 Logging started
+2021-07-04 12:34:55,805 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:34:55,815 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:35:55,479 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:35:55] "GET /users/user_by_name/egor HTTP/1.1" 200 -
+2021-07-04 12:36:17,243 ERROR views create_post 134 Post {'title': 'testtitle', 'text': 'testtext', 'author': 1} not created with exception: 'password' is an invalid keyword argument for Post
+2021-07-04 12:36:17,243 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:36:17] "[31m[1mPOST /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 12:37:21,462 ERROR views create_post 134 Post {'title': 'testtitle', 'text': 'testtext', 'author': 1} not created with exception: 'password' is an invalid keyword argument for Post
+2021-07-04 12:37:21,463 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:37:21] "[31m[1mPOST /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 12:37:29,482 ERROR views get_post 111 Something went wrong in loading post create_post: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for integer: "create_post"
+LINE 3: WHERE posts.id = 'create_post' 
+                         ^
+
+[SQL: SELECT posts.name AS posts_name, posts.email AS posts_email, posts.id AS posts_id, posts.author AS posts_author 
+FROM posts 
+WHERE posts.id = %(id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': 'create_post', 'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/14/9h9h)
+2021-07-04 12:37:29,483 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:37:29] "[31m[1mGET /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 12:38:00,809 ERROR views create_post 134 Post {'title': 'testtitle', 'text': 'testtext', 'author': 1} not created with exception: 'password' is an invalid keyword argument for Post
+2021-07-04 12:38:00,810 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:38:00] "[31m[1mPOST /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 12:38:18,129 ERROR views create_post 134 Post {'title': 'testtitle', 'text': 'testtext', 'author': 1} not created with exception: 'password' is an invalid keyword argument for Post
+2021-07-04 12:38:18,130 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:38:18] "[31m[1mPOST /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 12:39:30,179 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:39:30,327 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:39:30,608 INFO settings <module> 31 Logging started
+2021-07-04 12:39:31,133 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:39:31,142 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:40:20,629 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:40:20,698 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:40:21,009 INFO settings <module> 31 Logging started
+2021-07-04 12:40:21,532 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:40:21,539 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:40:24,583 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:40:24,652 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:40:25,001 INFO settings <module> 31 Logging started
+2021-07-04 12:40:25,520 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:40:25,529 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:40:30,588 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:40:30,661 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:40:30,994 INFO settings <module> 31 Logging started
+2021-07-04 12:40:31,520 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:40:31,529 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:40:38,406 INFO settings <module> 31 Logging started
+2021-07-04 12:40:39,013 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 12:40:39,014 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:40:39,331 INFO settings <module> 31 Logging started
+2021-07-04 12:40:39,855 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:40:39,864 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:40:54,031 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:40:54] "GET /users/user_by_name/egor HTTP/1.1" 200 -
+2021-07-04 12:41:01,132 ERROR views create_post 135 Post {'title': 'testtitle', 'text': 'testtext', 'author': 1} not created with exception: name 'username' is not defined
+2021-07-04 12:41:01,134 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:41:01] "[31m[1mPOST /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 12:41:35,585 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:41:35,699 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:41:36,057 INFO settings <module> 31 Logging started
+2021-07-04 12:41:36,568 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:41:36,576 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:42:50,511 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:42:50,573 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:42:50,899 INFO settings <module> 31 Logging started
+2021-07-04 12:42:51,547 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:42:51,554 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:42:53,085 INFO settings <module> 31 Logging started
+2021-07-04 12:42:53,602 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 12:42:53,603 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:42:53,959 INFO settings <module> 31 Logging started
+2021-07-04 12:42:54,485 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:42:54,494 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:42:58,253 INFO views create_post 131 New post {'title': 'testtitle', 'text': 'testtext', 'author': 1} created.
+2021-07-04 12:42:58,254 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:42:58] "[35m[1mPOST /posts/create_post HTTP/1.1[0m" 201 -
+2021-07-04 12:43:06,300 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 12:43:06] "GET /posts HTTP/1.1" 200 -
+2021-07-04 12:45:15,004 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:45:15,121 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:45:15,469 INFO settings <module> 31 Logging started
+2021-07-04 12:45:16,008 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:45:16,016 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:47:58,015 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:47:58,082 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:47:58,399 INFO settings <module> 31 Logging started
+2021-07-04 12:47:58,920 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:47:58,929 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:48:12,091 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:48:12,159 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:48:12,451 INFO settings <module> 31 Logging started
+2021-07-04 12:48:12,997 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:48:13,006 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:48:24,148 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:48:24,216 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:48:24,582 INFO settings <module> 31 Logging started
+2021-07-04 12:48:25,080 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:48:25,088 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 12:50:59,819 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 12:50:59,886 INFO _internal _log 225  * Restarting with stat
+2021-07-04 12:51:00,197 INFO settings <module> 31 Logging started
+2021-07-04 12:51:00,733 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 12:51:00,741 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 13:01:48,941 INFO settings <module> 31 Logging started
+2021-07-04 13:01:49,499 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 13:01:49,500 INFO _internal _log 225  * Restarting with stat
+2021-07-04 13:01:49,781 INFO settings <module> 31 Logging started
+2021-07-04 13:01:50,296 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 13:01:50,305 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 13:01:59,698 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:01:59] "GET /users/user_by_name/egor HTTP/1.1" 200 -
+2021-07-04 13:02:08,121 ERROR views create_post 135 Post {'title': '21', 'text': '45', 'author': 1} not created with exception: name 'post' is not defined
+2021-07-04 13:02:08,123 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:02:08] "[31m[1mPOST /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 13:03:41,112 ERROR views create_post 135 Post {'title': '21', 'text': '45', 'author': 1} not created with exception: name 'post' is not defined
+2021-07-04 13:03:41,113 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:03:41] "[31m[1mPOST /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 13:03:56,242 ERROR views create_post 135 Post {'title': '21', 'text': '45', 'author': 1} not created with exception: name 'post' is not defined
+2021-07-04 13:03:56,243 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:03:56] "[31m[1mPOST /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 13:04:08,013 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:04:08] "GET /posts HTTP/1.1" 200 -
+2021-07-04 13:04:32,315 ERROR views create_post 135 Post {'title': '21', 'text': '45', 'author': 1} not created with exception: name 'post' is not defined
+2021-07-04 13:04:32,316 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:04:32] "[31m[1mPOST /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 13:05:19,279 ERROR views create_post 135 Post {'title': '21', 'text': '45', 'author': 1} not created with exception: name 'post' is not defined
+2021-07-04 13:05:19,279 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:05:19] "[31m[1mPOST /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 13:05:24,922 ERROR views get_post 111 Something went wrong in loading post create_post: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for integer: "create_post"
+LINE 3: WHERE posts.id = 'create_post' 
+                         ^
+
+[SQL: SELECT posts.name AS posts_name, posts.email AS posts_email, posts.id AS posts_id, posts.author AS posts_author 
+FROM posts 
+WHERE posts.id = %(id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': 'create_post', 'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/14/9h9h)
+2021-07-04 13:05:24,922 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:05:24] "[31m[1mGET /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 13:05:51,991 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 13:05:52,167 INFO _internal _log 225  * Restarting with stat
+2021-07-04 13:05:52,445 INFO settings <module> 31 Logging started
+2021-07-04 13:05:52,935 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 13:05:52,943 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 13:06:01,049 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 13:06:01,121 INFO _internal _log 225  * Restarting with stat
+2021-07-04 13:06:01,399 INFO settings <module> 31 Logging started
+2021-07-04 13:06:01,930 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 13:06:01,939 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 13:06:04,509 INFO settings <module> 31 Logging started
+2021-07-04 13:06:05,020 INFO _internal _log 225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-04 13:06:05,021 INFO _internal _log 225  * Restarting with stat
+2021-07-04 13:06:05,310 INFO settings <module> 31 Logging started
+2021-07-04 13:06:05,809 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 13:06:05,814 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 13:06:20,156 ERROR views create_post 137 Post {'title': '555', 'text': '111', 'author': 1} not created with exception: name 'post' is not defined
+2021-07-04 13:06:20,158 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:06:20] "[31m[1mPOST /posts/create_post HTTP/1.1[0m" 400 -
+2021-07-04 13:07:23,680 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:07:23] "GET /posts HTTP/1.1" 200 -
+2021-07-04 13:07:51,063 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/views.py', reloading
+2021-07-04 13:07:51,180 INFO _internal _log 225  * Restarting with stat
+2021-07-04 13:07:51,436 INFO settings <module> 31 Logging started
+2021-07-04 13:07:51,957 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 13:07:51,965 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 13:08:08,238 INFO views create_post 132 New post {'id': 16, 'title': '999', 'text': '3333', 'author': 1} created.
+2021-07-04 13:08:08,241 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:08:08] "[35m[1mPOST /posts/create_post HTTP/1.1[0m" 201 -
+2021-07-04 13:08:35,675 INFO views create_post 132 New post {'id': 17, 'title': '986332', 'text': '986332', 'author': 1} created.
+2021-07-04 13:08:35,676 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:08:35] "[35m[1mPOST /posts/create_post HTTP/1.1[0m" 201 -
+2021-07-04 13:08:35,901 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:08:35] "GET /posts/17 HTTP/1.1" 200 -
+2021-07-04 13:08:47,970 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:08:47] "GET /users/user_by_name/egor HTTP/1.1" 200 -
+2021-07-04 13:08:50,444 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:08:50] "GET /posts HTTP/1.1" 200 -
+2021-07-04 13:09:11,751 INFO views signup 28 New user imia created.
+2021-07-04 13:09:11,752 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:09:11] "[35m[1mPOST /signup HTTP/1.1[0m" 201 -
+2021-07-04 13:09:21,002 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:09:21] "GET /users/user_by_name/imia HTTP/1.1" 200 -
+2021-07-04 13:09:31,199 INFO views create_post 132 New post {'id': 18, 'title': 'MyPost', 'text': 'Lppp', 'author': 10} created.
+2021-07-04 13:09:31,201 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:09:31] "[35m[1mPOST /posts/create_post HTTP/1.1[0m" 201 -
+2021-07-04 13:09:31,388 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:09:31] "GET /posts/18 HTTP/1.1" 200 -
+2021-07-04 13:16:05,982 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/GROUP_1_FILES/frameworks/flask_blog_evolution_example/10_microservice_architrcture/api/settings.py', reloading
+2021-07-04 13:16:06,245 INFO _internal _log 225  * Restarting with stat
+2021-07-04 13:16:06,511 INFO settings <module> 31 Logging started
+2021-07-04 13:16:07,068 WARNING _internal _log 225  * Debugger is active!
+2021-07-04 13:16:07,077 INFO _internal _log 225  * Debugger PIN: 698-494-440
+2021-07-04 13:24:04,552 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:24:04] "GET /posts HTTP/1.1" 200 -
+2021-07-04 13:24:14,848 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:24:14] "GET /users/user_by_name/egor HTTP/1.1" 200 -
+2021-07-04 13:24:21,194 INFO views create_post 132 New post {'id': 19, 'title': 'My new article', 'text': '45', 'author': 1} created.
+2021-07-04 13:24:21,195 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:24:21] "[35m[1mPOST /posts/create_post HTTP/1.1[0m" 201 -
+2021-07-04 13:24:21,282 INFO _internal _log 225 127.0.0.1 - - [04/Jul/2021 13:24:21] "GET /posts/19 HTTP/1.1" 200 -
+2021-12-07 01:48:00,965 INFO settings <module> 31 Logging started
+2021-12-07 01:48:15,981 INFO settings <module> 31 Logging started
+2021-12-07 01:48:16,025 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-07 01:48:16,026 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-07 01:48:16,026 INFO _internal _log 225  * Restarting with stat
+2021-12-07 01:48:16,266 INFO settings <module> 31 Logging started
+2021-12-07 01:48:16,283 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 01:48:16,292 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 01:48:38,945 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 01:48:38] "[33mGET / HTTP/1.1[0m" 404 -
+2021-12-07 01:48:38,984 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 01:48:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-12-07 01:48:44,097 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 01:48:44] "GET /users HTTP/1.1" 200 -
+2021-12-07 01:49:03,905 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139987160229632 and this is thread id 139987301073024.
+2021-12-07 01:49:03,906 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f514e007810>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139987160229632 and this is thread id 139987301073024.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139987160229632 and this is thread id 139987301073024.
+2021-12-07 01:57:29,931 INFO settings <module> 18 Logging started
+2021-12-07 01:58:02,296 INFO settings <module> 18 Logging started
+2021-12-07 01:58:02,306 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-07 01:58:02,306 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-07 01:58:02,307 INFO _internal _log 225  * Restarting with stat
+2021-12-07 01:58:02,584 INFO settings <module> 18 Logging started
+2021-12-07 01:58:02,593 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 01:58:02,597 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 01:58:16,766 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 01:58:16,832 INFO _internal _log 225  * Restarting with stat
+2021-12-07 01:58:17,107 INFO settings <module> 18 Logging started
+2021-12-07 01:58:17,116 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 01:58:17,122 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 01:58:38,360 INFO views create_new_user 46 New user NewUser created.
+2021-12-07 01:58:38,362 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 01:58:38] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-07 01:59:05,534 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 01:59:05] "GET /users HTTP/1.1" 200 -
+2021-12-07 02:02:21,519 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 02:02:21] "GET /users/1 HTTP/1.1" 200 -
+2021-12-07 02:02:24,831 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 02:02:24] "[33mGET /users/13 HTTP/1.1[0m" 404 -
+2021-12-07 02:03:24,709 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:03:24,740 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140331664787200 and this is thread id 140331805630592.
+2021-12-07 02:03:24,741 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fa18412eab0>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140331664787200 and this is thread id 140331805630592.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140331664787200 and this is thread id 140331805630592.
+2021-12-07 02:03:24,741 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140331664787200 and this is thread id 140331805630592.
+2021-12-07 02:03:24,742 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fa18412e730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140331664787200 and this is thread id 140331805630592.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140331664787200 and this is thread id 140331805630592.
+2021-12-07 02:03:24,742 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140331664787200 and this is thread id 140331805630592.
+2021-12-07 02:03:24,742 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fa18412e810>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140331664787200 and this is thread id 140331805630592.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140331664787200 and this is thread id 140331805630592.
+2021-12-07 02:03:24,776 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:03:25,045 INFO settings <module> 18 Logging started
+2021-12-07 02:03:25,055 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:03:25,060 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:03:36,197 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:03:36,260 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:03:36,521 INFO settings <module> 18 Logging started
+2021-12-07 02:03:36,530 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:03:36,535 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:03:59,796 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:03:59,866 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:04:56,693 INFO settings <module> 18 Logging started
+2021-12-07 02:04:56,704 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-07 02:04:56,704 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-07 02:04:56,704 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:04:56,973 INFO settings <module> 18 Logging started
+2021-12-07 02:04:56,984 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:04:56,990 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:05:02,921 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 02:05:02] "[33mGET /users/NewUser HTTP/1.1[0m" 404 -
+2021-12-07 02:05:20,257 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:05:20,288 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140618296735488 and this is thread id 140618437578880.
+2021-12-07 02:05:20,289 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fe440ab4730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140618296735488 and this is thread id 140618437578880.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140618296735488 and this is thread id 140618437578880.
+2021-12-07 02:05:20,327 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:05:20,604 INFO settings <module> 18 Logging started
+2021-12-07 02:05:20,613 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:05:20,618 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:05:21,636 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:05:21,706 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:05:21,981 INFO settings <module> 18 Logging started
+2021-12-07 02:05:21,989 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:05:21,993 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:05:36,143 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:05:36,220 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:05:36,509 INFO settings <module> 18 Logging started
+2021-12-07 02:05:36,517 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:05:36,522 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:05:44,626 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:05:44,687 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:05:44,999 INFO settings <module> 18 Logging started
+2021-12-07 02:05:45,010 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:05:45,016 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:06:01,205 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:06:01,275 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:06:01,543 INFO settings <module> 18 Logging started
+2021-12-07 02:06:01,551 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:06:01,556 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:09:31,461 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:09:31,524 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:22:04,999 INFO settings <module> 18 Logging started
+2021-12-07 02:22:05,008 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-07 02:22:05,008 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-07 02:22:05,009 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:22:05,272 INFO settings <module> 18 Logging started
+2021-12-07 02:22:05,281 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:22:05,285 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:22:08,857 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 02:22:08] "[35m[1mPOST /posts HTTP/1.1[0m" 500 -
+2021-12-07 02:22:45,801 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 02:22:45] "[35m[1mPOST /posts HTTP/1.1[0m" 500 -
+2021-12-07 02:22:52,151 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 02:22:52] "[35m[1mPOST /posts HTTP/1.1[0m" 500 -
+2021-12-07 02:24:20,715 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/models.py', reloading
+2021-12-07 02:24:20,786 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:24:21,057 INFO settings <module> 18 Logging started
+2021-12-07 02:24:21,065 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:24:21,070 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:24:37,607 INFO settings <module> 18 Logging started
+2021-12-07 02:24:37,662 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-07 02:24:37,662 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-07 02:24:37,664 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:24:37,949 INFO settings <module> 18 Logging started
+2021-12-07 02:24:37,958 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:24:37,962 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:24:43,526 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 02:24:43] "[35m[1mPOST /posts HTTP/1.1[0m" 500 -
+2021-12-07 02:24:49,358 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 02:24:49] "[35m[1mPOST /posts HTTP/1.1[0m" 500 -
+2021-12-07 02:25:33,650 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:25:33,718 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:25:34,000 INFO settings <module> 18 Logging started
+2021-12-07 02:25:34,009 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:25:34,015 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:25:39,756 INFO settings <module> 18 Logging started
+2021-12-07 02:25:39,766 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-07 02:25:39,766 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-07 02:25:39,767 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:25:40,054 INFO settings <module> 18 Logging started
+2021-12-07 02:25:40,063 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:25:40,068 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:25:42,988 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 02:25:42] "[35m[1mPOST /posts HTTP/1.1[0m" 500 -
+2021-12-07 02:28:14,662 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:28:14,714 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:28:14,993 INFO settings <module> 18 Logging started
+2021-12-07 02:28:15,001 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:28:15,006 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:28:17,954 INFO settings <module> 18 Logging started
+2021-12-07 02:28:17,964 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-07 02:28:17,964 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-07 02:28:17,965 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:28:18,243 INFO settings <module> 18 Logging started
+2021-12-07 02:28:18,252 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:28:18,257 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:28:20,723 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 02:28:20] "[35m[1mPOST /posts HTTP/1.1[0m" 500 -
+2021-12-07 02:30:37,646 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:30:37,711 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:30:37,980 INFO settings <module> 18 Logging started
+2021-12-07 02:30:37,990 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:30:37,995 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:30:40,020 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 02:30:40,085 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:30:40,350 INFO settings <module> 18 Logging started
+2021-12-07 02:30:40,359 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:30:40,364 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:30:43,662 INFO settings <module> 18 Logging started
+2021-12-07 02:30:43,672 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-07 02:30:43,672 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-07 02:30:43,672 INFO _internal _log 225  * Restarting with stat
+2021-12-07 02:30:43,944 INFO settings <module> 18 Logging started
+2021-12-07 02:30:43,952 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 02:30:43,957 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 02:30:46,111 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 02:30:46] "[31m[1mPOST /posts HTTP/1.1[0m" 400 -
+2021-12-07 02:31:00,766 INFO views create_post 86 New post {'id': 1, 'title': 'test_title', 'text': 'test_text', 'author_id': 1} created.
+2021-12-07 02:31:00,767 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 02:31:00] "[35m[1mPOST /posts HTTP/1.1[0m" 201 -
+2021-12-07 03:33:40,881 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 03:33:40] "GET /posts HTTP/1.1" 200 -
+2021-12-07 03:37:04,849 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/settings.py', reloading
+2021-12-07 03:37:04,881 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140016828606208 and this is thread id 140016969449600.
+2021-12-07 03:37:04,882 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f58365ff570>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140016828606208 and this is thread id 140016969449600.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140016828606208 and this is thread id 140016969449600.
+2021-12-07 03:37:04,883 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140016828606208 and this is thread id 140016969449600.
+2021-12-07 03:37:04,883 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f58365ff810>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140016828606208 and this is thread id 140016969449600.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140016828606208 and this is thread id 140016969449600.
+2021-12-07 03:37:04,916 INFO _internal _log 225  * Restarting with stat
+2021-12-07 03:37:05,195 INFO settings <module> 17 Logging started
+2021-12-07 03:37:05,203 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 03:37:05,207 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 03:37:13,303 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 03:37:13,371 INFO _internal _log 225  * Restarting with stat
+2021-12-07 03:37:13,635 INFO settings <module> 17 Logging started
+2021-12-07 03:37:13,643 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 03:37:13,648 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 03:37:17,696 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 03:37:17,767 INFO _internal _log 225  * Restarting with stat
+2021-12-07 03:37:18,036 INFO settings <module> 17 Logging started
+2021-12-07 03:37:18,044 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 03:37:18,048 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 03:56:08,429 INFO views create_new_user 27 New user NewUser created.
+2021-12-07 03:56:08,430 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 03:56:08] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-07 03:56:20,847 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 03:56:20] "GET /users HTTP/1.1" 200 -
+2021-12-07 12:45:12,181 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140168495564544 and this is thread id 140168636407936.
+2021-12-07 12:45:12,182 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f7b866e1730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140168495564544 and this is thread id 140168636407936.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140168495564544 and this is thread id 140168636407936.
+2021-12-07 12:45:15,979 INFO settings <module> 17 Logging started
+2021-12-07 12:45:15,988 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-07 12:45:15,988 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-07 12:45:15,989 INFO _internal _log 225  * Restarting with stat
+2021-12-07 12:45:16,266 INFO settings <module> 17 Logging started
+2021-12-07 12:45:16,275 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 12:45:16,280 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 12:46:17,584 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:46:17] "GET /users HTTP/1.1" 200 -
+2021-12-07 12:46:48,077 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:46:48] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 12:47:03,638 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:47:03] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 12:48:11,400 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 12:48:11,430 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140006703564544 and this is thread id 140006844407936.
+2021-12-07 12:48:11,431 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f55dae00730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140006703564544 and this is thread id 140006844407936.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140006703564544 and this is thread id 140006844407936.
+2021-12-07 12:48:11,489 INFO _internal _log 225  * Restarting with stat
+2021-12-07 12:48:11,829 INFO settings <module> 17 Logging started
+2021-12-07 12:48:11,838 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 12:48:11,842 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 12:48:12,854 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 12:48:12,924 INFO _internal _log 225  * Restarting with stat
+2021-12-07 12:48:13,306 INFO settings <module> 17 Logging started
+2021-12-07 12:48:13,315 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 12:48:13,321 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 12:48:25,499 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:48:25] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 12:48:33,774 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:48:33] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 12:48:56,418 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:48:56] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 12:49:16,910 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:49:16] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 12:49:55,133 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:49:55] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 12:52:00,604 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:52:00] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 12:52:38,115 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:52:38] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 12:52:55,853 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:52:55] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 12:53:24,959 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:53:24] "GET /users HTTP/1.1" 200 -
+2021-12-07 12:53:24,965 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:53:24] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 12:58:33,216 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:58:33] "GET /users HTTP/1.1" 200 -
+2021-12-07 12:58:33,223 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 12:58:33] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 13:00:45,384 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:00:45] "GET /users HTTP/1.1" 200 -
+2021-12-07 13:00:45,389 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:00:45] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-07 13:01:01,205 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:01:01] "GET /users HTTP/1.1" 200 -
+2021-12-07 13:01:01,208 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:01:01] "[31m[1mPOST /users HTTP/1.1[0m" 400 -
+2021-12-07 13:01:28,856 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:01:28] "GET /users HTTP/1.1" 200 -
+2021-12-07 13:01:28,859 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:01:28] "[31m[1mPOST /users HTTP/1.1[0m" 400 -
+2021-12-07 13:01:47,187 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:01:47] "GET /users HTTP/1.1" 200 -
+2021-12-07 13:01:47,202 INFO views create_new_user 27 New user NewUser created.
+2021-12-07 13:01:47,203 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:01:47] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-07 13:06:02,997 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:06:02] "GET /users HTTP/1.1" 200 -
+2021-12-07 13:06:03,011 INFO views create_new_user 27 New user new_user created.
+2021-12-07 13:06:03,011 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:06:03] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-07 13:06:07,517 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:06:07] "GET /users HTTP/1.1" 200 -
+2021-12-07 13:18:06,436 INFO views create_new_user 27 New user new_user created.
+2021-12-07 13:18:06,436 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:18:06] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-07 13:33:01,699 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/rest_api/api/views.py', reloading
+2021-12-07 13:33:01,734 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139978935326464 and this is thread id 139979076169856.
+2021-12-07 13:33:01,735 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f4f63c269d0>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139978935326464 and this is thread id 139979076169856.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139978935326464 and this is thread id 139979076169856.
+2021-12-07 13:33:01,778 INFO _internal _log 225  * Restarting with stat
+2021-12-07 13:33:02,055 INFO settings <module> 17 Logging started
+2021-12-07 13:33:02,065 WARNING _internal _log 225  * Debugger is active!
+2021-12-07 13:33:02,069 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-07 13:44:13,827 INFO views create_new_user 27 New user new_user created.
+2021-12-07 13:44:13,828 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:44:13] "[35m[1mPOST /users HTTP/1.1[0m" 201 -

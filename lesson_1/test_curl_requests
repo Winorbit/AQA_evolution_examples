@@ -1,0 +1,15 @@
+# Create user
+curl -d '{"username":"NewUser", "email":"test@mail.com", "password": "123"}' -H "Content-Type: application/json" -X POST http://localhost:5000/users
+
+# Get all users
+curl localhost:5000/users
+
+# Create post
+curl -d '{"title":"test_title", "text": "test_text", "author_id":1}' -H "Content-Type: application/json" -X POST http://localhost:5000/posts
+
+
+# Get all posts
+curl localhost:5000/posts
+
+# Get post by id
+curl localhost:5000/posts/1

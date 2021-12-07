@@ -1,0 +1,22 @@
+{  
+  "version": 1,  
+  "disable_existing_loggers": false,  
+  "formatters": {  
+    "simple": {  
+      "format": "%(asctime)s %(levelname)s %(module)s %(funcName)s %(lineno)s %(message)s" 
+  }  
+  },  
+  "handlers": {  
+    "file_handler": {  
+      "class": "logging.FileHandler",  
+  "level": "DEBUG",  
+  "formatter": "simple",  
+  "filename": "logfile.log",  
+  "encoding": "utf8"  
+  }  
+  },  
+  "root": {  
+    "level": "DEBUG",  
+  "handlers": ["file_handler"]  
+  }  
+}
