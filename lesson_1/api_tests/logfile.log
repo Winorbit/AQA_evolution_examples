@@ -1,0 +1,69 @@
+2021-12-08 02:28:51,319 INFO settings <module> 16 Logging started
+2021-12-08 02:28:51,321 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:28:51,343 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:28:51,344 INFO api_tests test_create_user 30 User were created successfully
+2021-12-08 02:28:53,322 INFO settings <module> 16 Logging started
+2021-12-08 02:28:53,324 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:28:53,337 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:28:53,338 INFO api_tests test_create_user 30 User were created successfully
+2021-12-08 02:29:03,557 INFO settings <module> 16 Logging started
+2021-12-08 02:29:03,561 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:29:03,572 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:29:03,573 INFO api_tests test_create_user 30 User were created successfully
+2021-12-08 02:29:48,530 INFO settings <module> 16 Logging started
+2021-12-08 02:29:48,533 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:29:48,545 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:29:48,546 INFO api_tests test_create_user 30 User were created successfully
+2021-12-08 02:41:27,912 INFO settings <module> 16 Logging started
+2021-12-08 02:41:27,916 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:41:27,934 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:41:27,935 INFO api_tests test_create_user 35 User were created successfully
+2021-12-08 02:42:01,503 INFO settings <module> 16 Logging started
+2021-12-08 02:42:01,506 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:42:01,519 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:42:01,520 INFO api_tests test_create_user 35 User were created successfully
+2021-12-08 02:42:01,522 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:42:01,527 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 500 None
+2021-12-08 02:42:01,528 ERROR api_tests test_create_user_invalid_data 61 User with invalid data were created successfully
+2021-12-08 02:42:12,109 INFO settings <module> 16 Logging started
+2021-12-08 02:42:12,113 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:42:12,126 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:42:12,126 INFO api_tests test_create_user 35 User were created successfully
+2021-12-08 02:42:12,129 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:42:12,134 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 500 None
+2021-12-08 02:42:12,135 ERROR api_tests test_create_user_invalid_data 61 User with invalid data were created successfully
+2021-12-08 02:42:48,594 INFO settings <module> 16 Logging started
+2021-12-08 02:42:48,597 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:42:48,612 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:42:48,613 INFO api_tests test_create_user 35 User were created successfully
+2021-12-08 02:42:48,618 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:42:48,626 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 500 None
+2021-12-08 02:42:48,627 ERROR api_tests test_create_user_invalid_data 61 User with invalid data were created successfully
+2021-12-08 02:48:18,586 INFO settings <module> 16 Logging started
+2021-12-08 02:48:18,588 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:48:18,610 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:48:18,610 INFO api_tests test_create_user 35 User were created successfully
+2021-12-08 02:48:18,612 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:48:18,619 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 500 None
+2021-12-08 02:48:18,619 ERROR api_tests test_create_user_invalid_data 61 User with invalid data were created successfully
+2021-12-08 02:50:19,545 INFO settings <module> 16 Logging started
+2021-12-08 02:50:19,548 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:50:19,563 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:50:19,564 INFO api_tests test_create_user 35 User were created successfully
+2021-12-08 02:50:19,565 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:50:19,567 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 400 111
+2021-12-08 02:50:19,567 ERROR api_tests test_create_user_invalid_data 61 User with invalid data were created successfully
+2021-12-08 02:50:44,414 INFO settings <module> 16 Logging started
+2021-12-08 02:50:44,417 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:50:44,431 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:50:44,431 INFO api_tests test_create_user 35 User were created successfully
+2021-12-08 02:50:44,433 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:50:44,434 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 400 111
+2021-12-08 02:50:44,435 ERROR api_tests test_create_user_invalid_data 61 User with invalid data were created successfully
+2021-12-08 02:50:49,106 INFO settings <module> 16 Logging started
+2021-12-08 02:50:49,110 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:50:49,121 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:50:49,122 INFO api_tests test_create_user 35 User were created successfully
+2021-12-08 02:50:49,123 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:50:49,126 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 400 111
+2021-12-08 02:50:49,126 ERROR api_tests test_create_user_invalid_data 61 User with invalid data were created successfully

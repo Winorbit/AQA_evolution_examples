@@ -8,19 +8,19 @@ class User(DeclarativeBase):
     __tablename__ = 'users'
 
     id = Column(Integer, primary_key=True)
-    name = Column('name', String)
+    username = Column('username', String)
     email = Column('email', String)
     password = Column('password', String)
 
     def __repr__(self):
-        return "".format(self.email)
+        return "".format(self.username)
 
     @property
     def serialize(self):
        """Return object data in easily serializable format"""
        return {
            'id': self.id,
-           'username': self.name,
+           'username': self.username,
            'email': self.email,
            'password': self.password,
        }

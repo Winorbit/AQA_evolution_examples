@@ -14,3 +14,6 @@ python run.py
 ### /users/id
 ### /posts [post - create, get - all users]
 ### /posts/id
+
+Tests
+python -m unittest tests/test_validation_unittest.py 

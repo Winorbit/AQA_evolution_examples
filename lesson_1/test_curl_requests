@@ -1,8 +1,17 @@
 # Create user
 curl -d '{"username":"NewUser", "email":"test@mail.com", "password": "123"}' -H "Content-Type: application/json" -X POST http://localhost:5000/users
 
+
+# Update user 1
+curl -d '{"username":"Updatedusername", "email":"test_new@mail.com", "password": "123"}' -H "Content-Type: application/json" -X PUT http://localhost:5000/users/<id>
+
+
+curl -d '{"username":"Updatedusername"}' -H "Content-Type: application/json" -X PUT http://localhost:5000/users/<id>
+
+
 # Get all users
 curl localhost:5000/users
+
 
 # Create post
 curl -d '{"title":"test_title", "text": "test_text", "author_id":1}' -H "Content-Type: application/json" -X POST http://localhost:5000/posts
@@ -10,6 +19,7 @@ curl -d '{"title":"test_title", "text": "test_text", "author_id":1}' -H "Content
 
 # Get all posts
 curl localhost:5000/posts
+
 
 # Get post by id
 curl localhost:5000/posts/1

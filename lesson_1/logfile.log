@@ -1,0 +1,37 @@
+2021-12-08 02:27:43,594 INFO settings <module> 16 Logging started
+2021-12-08 02:27:43,597 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:27:43,624 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:27:43,625 INFO api_tests test_create_user 30 User were created successfully
+2021-12-08 02:28:04,096 INFO settings <module> 16 Logging started
+2021-12-08 02:28:04,101 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:28:04,126 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:28:04,128 INFO api_tests test_create_user 30 User were created successfully
+2021-12-08 02:28:17,280 INFO settings <module> 16 Logging started
+2021-12-08 02:28:17,283 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 02:28:17,299 DEBUG connectionpool _make_request 452 http://localhost:5000 "POST /users HTTP/1.1" 201 3
+2021-12-08 02:28:17,299 INFO api_tests test_create_user 30 User were created successfully
+2021-12-08 03:23:00,008 INFO settings <module> 17 Logging started
+2021-12-08 03:23:35,168 INFO settings <module> 17 Logging started
+2021-12-08 03:39:15,206 INFO settings <module> 17 Logging started
+2021-12-08 03:39:15,208 INFO validation check_email 7 Email myemail@gmail.com is valid
+2021-12-08 03:39:15,208 ERROR validation check_email 10 Email myemail is invalid
+2021-12-08 03:39:15,209 ERROR validation check_email 10 Email myemail.com is invalid
+2021-12-08 03:40:02,529 INFO settings <module> 17 Logging started
+2021-12-08 03:40:02,531 ERROR validation check_email 10 Email myemail is invalid
+2021-12-08 03:40:02,531 ERROR validation check_email 10 Email myemail.com is invalid
+2021-12-08 03:40:02,531 INFO validation check_email 7 Email myemail@gmail.com is valid
+2021-12-08 03:40:43,784 INFO settings <module> 17 Logging started
+2021-12-08 03:40:43,784 ERROR validation check_email 10 Email myemail is invalid
+2021-12-08 03:40:43,784 ERROR validation check_email 10 Email myemail.com is invalid
+2021-12-08 03:40:43,785 INFO validation check_email 7 Email myemail@gmail.com is valid
+2021-12-08 03:51:01,263 INFO settings <module> 17 Logging started
+2021-12-08 03:51:26,222 INFO settings <module> 17 Logging started
+2021-12-08 03:51:49,783 INFO settings <module> 17 Logging started
+2021-12-08 03:52:05,391 INFO settings <module> 17 Logging started
+2021-12-08 03:52:18,791 INFO settings <module> 17 Logging started
+2021-12-08 03:52:18,792 ERROR validation check_email 10 Email myemail is invalid
+2021-12-08 03:52:18,792 ERROR validation check_email 10 Email myemail.com is invalid
+2021-12-08 03:52:18,793 INFO validation check_email 7 Email myemail@gmail.com is valid
+2021-12-08 04:02:52,559 INFO settings <module> 16 Logging started
+2021-12-08 04:02:52,562 DEBUG connectionpool _new_conn 227 Starting new HTTP connection (1): localhost:5000
+2021-12-08 04:02:52,563 ERROR api_tests test_create_user 48 Request to http://localhost:5000/users failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /users (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f68dae98130>: Failed to establish a new connection: [Errno 111] Connection refused'))

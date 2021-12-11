@@ -1572,3 +1572,1612 @@ sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in
 2021-12-07 13:33:02,069 INFO _internal _log 225  * Debugger PIN: 383-385-616
 2021-12-07 13:44:13,827 INFO views create_new_user 27 New user new_user created.
 2021-12-07 13:44:13,828 INFO _internal _log 225 127.0.0.1 - - [07/Dec/2021 13:44:13] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 00:24:56,423 INFO settings <module> 17 Logging started
+2021-12-08 00:24:56,451 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-08 00:24:56,451 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-08 00:24:56,452 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:24:56,756 INFO settings <module> 17 Logging started
+2021-12-08 00:24:56,767 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:24:56,774 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:25:11,531 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:25:11] "GET /users HTTP/1.1" 200 -
+2021-12-08 00:25:18,575 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:25:18] "[35m[1mPUT /users/<id> HTTP/1.1[0m" 500 -
+2021-12-08 00:25:36,259 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:25:36,293 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139732565088000 and this is thread id 139732705931392.
+2021-12-08 00:25:36,294 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f1606f30730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139732565088000 and this is thread id 139732705931392.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139732565088000 and this is thread id 139732705931392.
+2021-12-08 00:25:36,333 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:25:36,705 INFO settings <module> 17 Logging started
+2021-12-08 00:25:36,718 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:25:36,724 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:25:38,884 ERROR views update_user 80 User with params {'username': 'Updatedusername'} not loaded with exception: type object 'User' has no attribute 'query'
+2021-12-08 00:25:38,886 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:25:38] "[31m[1mPUT /users/<id> HTTP/1.1[0m" 400 -
+2021-12-08 00:25:48,332 INFO settings <module> 17 Logging started
+2021-12-08 00:25:48,343 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-08 00:25:48,344 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-08 00:25:48,345 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:25:48,672 INFO settings <module> 17 Logging started
+2021-12-08 00:25:48,682 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:25:48,687 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:25:50,775 ERROR views update_user 80 User with params {'username': 'Updatedusername'} not loaded with exception: type object 'User' has no attribute 'query'
+2021-12-08 00:25:50,777 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:25:50] "[31m[1mPUT /users/<id> HTTP/1.1[0m" 400 -
+2021-12-08 00:27:48,472 ERROR views update_user 80 User with params {'username': 'Updatedusername'} not loaded with exception: type object 'User' has no attribute 'query'
+2021-12-08 00:27:48,473 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:27:48] "[31m[1mPUT /users/<id> HTTP/1.1[0m" 400 -
+2021-12-08 00:28:53,866 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:28:53,938 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:28:54,271 INFO settings <module> 17 Logging started
+2021-12-08 00:28:54,283 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:28:54,291 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:28:58,343 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:28:58,428 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:28:58,778 INFO settings <module> 17 Logging started
+2021-12-08 00:28:58,789 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:28:58,795 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:29:02,848 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:29:02,912 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:29:03,227 INFO settings <module> 17 Logging started
+2021-12-08 00:29:03,237 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:29:03,243 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:29:07,219 ERROR views update_user 80 User with params {'username': 'Updatedusername'} not loaded with exception: name 'query' is not defined
+2021-12-08 00:29:07,221 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:29:07] "[31m[1mPUT /users/<id> HTTP/1.1[0m" 400 -
+2021-12-08 00:29:22,497 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:29:22,561 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:29:22,874 INFO settings <module> 17 Logging started
+2021-12-08 00:29:22,885 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:29:22,890 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:29:23,909 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:29:23,988 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:29:24,306 INFO settings <module> 17 Logging started
+2021-12-08 00:29:24,317 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:29:24,323 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:29:25,344 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:29:25,411 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:29:25,726 INFO settings <module> 17 Logging started
+2021-12-08 00:29:25,737 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:29:25,743 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:29:28,102 ERROR views update_user 80 User with params {'username': 'Updatedusername'} not loaded with exception: 'NoneType' object has no attribute 'update'
+2021-12-08 00:29:28,103 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:29:28] "[31m[1mPUT /users/<id> HTTP/1.1[0m" 400 -
+2021-12-08 00:29:43,948 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:29:43,960 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140639750354688 and this is thread id 140639891198080.
+2021-12-08 00:29:43,961 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fe93f679730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140639750354688 and this is thread id 140639891198080.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140639750354688 and this is thread id 140639891198080.
+2021-12-08 00:29:44,001 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:29:44,322 INFO settings <module> 17 Logging started
+2021-12-08 00:29:44,333 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:29:44,338 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:29:49,403 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:29:49,470 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:29:49,815 INFO settings <module> 17 Logging started
+2021-12-08 00:29:49,825 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:29:49,831 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:29:51,250 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:29:51] "[35m[1mPUT /users/<id> HTTP/1.1[0m" 500 -
+2021-12-08 00:30:01,976 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:30:02,043 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:30:02,376 INFO settings <module> 17 Logging started
+2021-12-08 00:30:02,387 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:30:02,392 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:30:03,606 ERROR views update_user 81 User with params {'username': 'Updatedusername'} not loaded with exception: Entity namespace for "mapped class User->users" has no property "username"
+2021-12-08 00:30:03,608 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:30:03] "[31m[1mPUT /users/<id> HTTP/1.1[0m" 400 -
+2021-12-08 00:31:02,096 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/models.py', reloading
+2021-12-08 00:31:02,166 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:31:02,481 INFO settings <module> 17 Logging started
+2021-12-08 00:31:02,490 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:31:02,497 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:31:23,746 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:31:23,812 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:31:24,110 INFO settings <module> 17 Logging started
+2021-12-08 00:31:24,120 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:31:24,126 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:31:29,199 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:31:29,271 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:31:29,597 INFO settings <module> 17 Logging started
+2021-12-08 00:31:29,607 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:31:29,613 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:31:31,636 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:31:31,694 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:31:32,007 INFO settings <module> 17 Logging started
+2021-12-08 00:31:32,019 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:31:32,024 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:31:48,366 INFO settings <module> 17 Logging started
+2021-12-08 00:31:48,411 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-08 00:31:48,411 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-08 00:31:48,412 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:31:48,731 INFO settings <module> 17 Logging started
+2021-12-08 00:31:48,740 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:31:48,746 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:31:54,633 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:31:54] "GET /users HTTP/1.1" 200 -
+2021-12-08 00:32:06,331 ERROR views create_new_user 31 User with params {'username': 'NewUser', 'email': 'test@mail.com', 'password': '123'} not loaded with exception: 'username' is an invalid keyword argument for User
+2021-12-08 00:32:06,333 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:32:06] "[31m[1mPOST /users HTTP/1.1[0m" 400 -
+2021-12-08 00:32:22,159 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/models.py', reloading
+2021-12-08 00:32:22,193 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140067067037440 and this is thread id 140067207880832.
+2021-12-08 00:32:22,195 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f63e8d1a730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140067067037440 and this is thread id 140067207880832.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140067067037440 and this is thread id 140067207880832.
+2021-12-08 00:32:22,245 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:32:22,556 INFO settings <module> 17 Logging started
+2021-12-08 00:32:22,566 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:32:22,571 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:32:23,593 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/models.py', reloading
+2021-12-08 00:32:23,661 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:32:23,986 INFO settings <module> 17 Logging started
+2021-12-08 00:32:23,996 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:32:24,002 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:32:27,050 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/models.py', reloading
+2021-12-08 00:32:27,124 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:32:27,447 INFO settings <module> 17 Logging started
+2021-12-08 00:32:27,458 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:32:27,463 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:32:32,539 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/models.py', reloading
+2021-12-08 00:32:32,607 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:32:32,918 INFO settings <module> 17 Logging started
+2021-12-08 00:32:32,927 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:32:32,932 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:32:52,686 INFO settings <module> 17 Logging started
+2021-12-08 00:32:52,697 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-08 00:32:52,697 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-08 00:32:52,698 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:32:53,010 INFO settings <module> 17 Logging started
+2021-12-08 00:32:53,020 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:32:53,025 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:32:56,584 ERROR views create_new_user 31 User with params {'username': 'NewUser', 'email': 'test@mail.com', 'password': '123'} not loaded with exception: (sqlite3.OperationalError) table users has no column named username
+[SQL: INSERT INTO users (username, email, password) VALUES (?, ?, ?)]
+[parameters: ('NewUser', 'test@mail.com', '123')]
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+2021-12-08 00:32:56,585 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:32:56] "[31m[1mPOST /users HTTP/1.1[0m" 400 -
+2021-12-08 00:33:02,720 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139653277546240 and this is thread id 139653492719744.
+2021-12-08 00:33:02,722 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f0395794730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139653277546240 and this is thread id 139653492719744.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139653277546240 and this is thread id 139653492719744.
+2021-12-08 00:33:10,929 INFO settings <module> 17 Logging started
+2021-12-08 00:33:10,971 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-08 00:33:10,972 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-08 00:33:10,973 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:33:11,327 INFO settings <module> 17 Logging started
+2021-12-08 00:33:11,339 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:33:11,344 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:33:13,872 INFO views create_new_user 27 New user NewUser created.
+2021-12-08 00:33:13,873 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:33:13] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 00:33:20,129 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:33:20] "GET /users HTTP/1.1" 200 -
+2021-12-08 00:33:44,749 ERROR views update_user 81 User with params {'username': 'Updatedusername'} not loaded with exception: Class 'builtins.int' is not mapped
+2021-12-08 00:33:44,750 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:33:44] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 00:37:17,371 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:37:17,400 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140416669689600 and this is thread id 140416810532992.
+2021-12-08 00:37:17,401 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fb54ec2c730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140416669689600 and this is thread id 140416810532992.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140416669689600 and this is thread id 140416810532992.
+2021-12-08 00:37:17,402 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140416669689600 and this is thread id 140416810532992.
+2021-12-08 00:37:17,402 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fb54ec2c810>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140416669689600 and this is thread id 140416810532992.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140416669689600 and this is thread id 140416810532992.
+2021-12-08 00:37:17,443 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:37:17,749 INFO settings <module> 17 Logging started
+2021-12-08 00:37:17,759 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:37:17,766 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:37:23,916 ERROR views update_user 83 User with params {'username': 'Updatedusername'} not loaded with exception: name 'uprint' is not defined
+2021-12-08 00:37:23,918 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:37:23] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 00:37:36,979 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:37:37,049 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:37:37,357 INFO settings <module> 17 Logging started
+2021-12-08 00:37:37,369 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:37:37,374 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:37:39,357 INFO views update_user 79 User updated successfully.
+2021-12-08 00:37:39,358 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:37:39] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 00:37:58,602 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:37:58,673 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:37:58,990 INFO settings <module> 17 Logging started
+2021-12-08 00:37:59,003 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:37:59,008 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:38:03,308 INFO views update_user 79 User updated successfully.
+2021-12-08 00:38:03,309 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:38:03] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 00:38:12,333 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:38:12] "GET /users HTTP/1.1" 200 -
+2021-12-08 00:38:16,999 INFO views update_user 79 User updated successfully.
+2021-12-08 00:38:16,999 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:38:16] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 00:38:39,480 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:38:39,506 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140415902676736 and this is thread id 140416117932160.
+2021-12-08 00:38:39,507 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fb5257a9810>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140415902676736 and this is thread id 140416117932160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140415902676736 and this is thread id 140416117932160.
+2021-12-08 00:38:39,507 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140415902676736 and this is thread id 140416117932160.
+2021-12-08 00:38:39,507 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fb5257a9ab0>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140415902676736 and this is thread id 140416117932160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140415902676736 and this is thread id 140416117932160.
+2021-12-08 00:38:39,508 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140415902676736 and this is thread id 140416117932160.
+2021-12-08 00:38:39,508 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fb5257a9730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140415902676736 and this is thread id 140416117932160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140415902676736 and this is thread id 140416117932160.
+2021-12-08 00:38:39,548 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:38:39,878 INFO settings <module> 17 Logging started
+2021-12-08 00:38:39,888 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:38:39,894 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:38:42,479 INFO views update_user 79 User updated successfully.
+2021-12-08 00:38:42,480 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:38:42] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 00:39:02,162 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:39:02,193 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140299014964992 and this is thread id 140299155808384.
+2021-12-08 00:39:02,194 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f99e9fe2730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140299014964992 and this is thread id 140299155808384.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140299014964992 and this is thread id 140299155808384.
+2021-12-08 00:39:02,234 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:39:02,536 INFO settings <module> 17 Logging started
+2021-12-08 00:39:02,547 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:39:02,552 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:39:07,626 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 00:39:07,699 INFO _internal _log 225  * Restarting with stat
+2021-12-08 00:39:08,051 INFO settings <module> 17 Logging started
+2021-12-08 00:39:08,063 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 00:39:08,069 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 00:39:11,743 ERROR views update_user 83 User with params {'username': 'Updatedusername'} not loaded with exception: 'User' object has no attribute 'update'
+2021-12-08 00:39:11,745 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 00:39:11] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:05:59,150 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:05:59,177 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139648357476096 and this is thread id 139648498319488.
+2021-12-08 01:05:59,178 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f026bc8c730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139648357476096 and this is thread id 139648498319488.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139648357476096 and this is thread id 139648498319488.
+2021-12-08 01:05:59,218 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:05:59,550 INFO settings <module> 17 Logging started
+2021-12-08 01:05:59,563 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:05:59,569 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:06:23,819 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:06:23,890 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:06:24,201 INFO settings <module> 17 Logging started
+2021-12-08 01:06:24,213 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:06:24,219 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:06:27,427 INFO views update_user 80 User updated successfully.
+2021-12-08 01:06:27,428 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:06:27] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:07:05,691 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:07:05,719 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140096317761280 and this is thread id 140096458604672.
+2021-12-08 01:07:05,720 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f6ab84c4730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140096317761280 and this is thread id 140096458604672.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140096317761280 and this is thread id 140096458604672.
+2021-12-08 01:07:05,762 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:07:06,083 INFO settings <module> 17 Logging started
+2021-12-08 01:07:06,093 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:07:06,098 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:07:09,142 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:07:09,221 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:07:09,550 INFO settings <module> 17 Logging started
+2021-12-08 01:07:09,560 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:07:09,565 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:07:10,586 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:07:10,660 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:07:10,966 INFO settings <module> 17 Logging started
+2021-12-08 01:07:10,976 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:07:10,983 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:07:14,450 INFO settings <module> 17 Logging started
+2021-12-08 01:07:14,462 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-08 01:07:14,462 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-08 01:07:14,463 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:07:14,774 INFO settings <module> 17 Logging started
+2021-12-08 01:07:14,786 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:07:14,792 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:07:16,671 INFO views update_user 80 User updated successfully.
+2021-12-08 01:07:16,672 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:07:16] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:07:31,998 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:07:32,030 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140662377277184 and this is thread id 140662518120576.
+2021-12-08 01:07:32,031 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fee84130730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140662377277184 and this is thread id 140662518120576.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140662377277184 and this is thread id 140662518120576.
+2021-12-08 01:07:32,072 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:07:32,400 INFO settings <module> 17 Logging started
+2021-12-08 01:07:32,411 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:07:32,416 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:07:35,321 INFO views update_user 80 User updated successfully.
+2021-12-08 01:07:35,323 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:07:35] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:07:46,332 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:07:46] "GET /users HTTP/1.1" 200 -
+2021-12-08 01:07:48,927 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:07:48] "GET /users/1 HTTP/1.1" 200 -
+2021-12-08 01:07:58,747 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:07:58,779 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139905443260160 and this is thread id 139905584103552.
+2021-12-08 01:07:58,780 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f3e474a88f0>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139905443260160 and this is thread id 139905584103552.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139905443260160 and this is thread id 139905584103552.
+2021-12-08 01:07:58,780 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139905443260160 and this is thread id 139905584103552.
+2021-12-08 01:07:58,781 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f3e474a8b90>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139905443260160 and this is thread id 139905584103552.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139905443260160 and this is thread id 139905584103552.
+2021-12-08 01:07:58,781 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139905443260160 and this is thread id 139905584103552.
+2021-12-08 01:07:58,781 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f3e474a8730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139905443260160 and this is thread id 139905584103552.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139905443260160 and this is thread id 139905584103552.
+2021-12-08 01:07:58,824 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:07:59,139 INFO settings <module> 17 Logging started
+2021-12-08 01:07:59,150 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:07:59,156 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:08:06,988 INFO views update_user 80 User updated successfully.
+2021-12-08 01:08:06,990 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:08:06] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:09:42,286 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:09:42,319 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140632120792832 and this is thread id 140632261636224.
+2021-12-08 01:09:42,320 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fe778a5b730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140632120792832 and this is thread id 140632261636224.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140632120792832 and this is thread id 140632261636224.
+2021-12-08 01:09:42,363 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:09:42,684 INFO settings <module> 17 Logging started
+2021-12-08 01:09:42,696 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:09:42,703 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:09:45,965 INFO views update_user 80 User updated successfully.
+2021-12-08 01:09:45,967 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:09:45] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:10:27,256 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:10:27,285 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139726192432896 and this is thread id 139726333276288.
+2021-12-08 01:10:27,286 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f148b1bf730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139726192432896 and this is thread id 139726333276288.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139726192432896 and this is thread id 139726333276288.
+2021-12-08 01:10:27,326 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:10:27,650 INFO settings <module> 17 Logging started
+2021-12-08 01:10:27,660 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:10:27,664 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:10:30,826 INFO views update_user 80 User updated successfully.
+2021-12-08 01:10:30,828 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:10:30] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:11:04,098 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:11:04,127 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139633276856064 and this is thread id 139633417699456.
+2021-12-08 01:11:04,128 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7efee8e8c730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139633276856064 and this is thread id 139633417699456.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139633276856064 and this is thread id 139633417699456.
+2021-12-08 01:11:04,168 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:11:04,489 INFO settings <module> 17 Logging started
+2021-12-08 01:11:04,500 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:11:04,506 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:11:06,587 INFO views update_user 80 User updated successfully.
+2021-12-08 01:11:06,588 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:11:06] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:11:39,969 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:11:39,994 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140692540385024 and this is thread id 140692681228416.
+2021-12-08 01:11:39,995 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7ff589ef8730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140692540385024 and this is thread id 140692681228416.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140692540385024 and this is thread id 140692681228416.
+2021-12-08 01:11:40,032 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:11:40,316 INFO settings <module> 17 Logging started
+2021-12-08 01:11:40,325 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:11:40,330 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:11:41,348 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:11:41,413 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:11:41,714 INFO settings <module> 17 Logging started
+2021-12-08 01:11:41,723 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:11:41,728 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:11:45,969 ERROR views update_user 85 User with params {'username': 'Updatedusername'} not loaded with exception: 'User' object has no attribute 'update'
+2021-12-08 01:11:45,970 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:11:45] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:19:16,360 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:19:16,390 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140389685905152 and this is thread id 140389826748544.
+2021-12-08 01:19:16,391 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7faf0666e810>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140389685905152 and this is thread id 140389826748544.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140389685905152 and this is thread id 140389826748544.
+2021-12-08 01:19:16,425 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:19:16,724 INFO settings <module> 17 Logging started
+2021-12-08 01:19:16,735 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:19:16,739 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:19:18,322 ERROR views update_user 83 User with params {'username': 'Updatedusername'} not loaded with exception: 'User' object has no attribute 'update'
+2021-12-08 01:19:18,324 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:19:18] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:19:32,919 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:19:32,947 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140671643322112 and this is thread id 140671784165504.
+2021-12-08 01:19:32,948 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7ff0ac5fa730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140671643322112 and this is thread id 140671784165504.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140671643322112 and this is thread id 140671784165504.
+2021-12-08 01:19:32,982 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:19:33,253 INFO settings <module> 17 Logging started
+2021-12-08 01:19:33,262 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:19:33,267 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:19:34,746 INFO views update_user 79 User updated successfully.
+2021-12-08 01:19:34,747 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:19:34] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:19:44,069 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:19:44] "GET /users/1 HTTP/1.1" 200 -
+2021-12-08 01:20:02,582 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:20:02,613 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140708853004032 and this is thread id 140708993847424.
+2021-12-08 01:20:02,614 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7ff9563e5810>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140708853004032 and this is thread id 140708993847424.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140708853004032 and this is thread id 140708993847424.
+2021-12-08 01:20:02,615 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140708853004032 and this is thread id 140708993847424.
+2021-12-08 01:20:02,615 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7ff9563e5730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140708853004032 and this is thread id 140708993847424.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140708853004032 and this is thread id 140708993847424.
+2021-12-08 01:20:02,649 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:20:02,920 INFO settings <module> 17 Logging started
+2021-12-08 01:20:02,929 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:20:02,934 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:20:06,075 ERROR views update_user 83 User with params {'username': 'Updatedusername'} not loaded with exception: Class 'builtins.int' is not mapped
+2021-12-08 01:20:06,077 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:20:06] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:20:13,055 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:20:13,083 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140643058218752 and this is thread id 140643199062144.
+2021-12-08 01:20:13,084 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fea04919810>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140643058218752 and this is thread id 140643199062144.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140643058218752 and this is thread id 140643199062144.
+2021-12-08 01:20:13,117 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:20:13,390 INFO settings <module> 17 Logging started
+2021-12-08 01:20:13,399 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:20:13,404 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:20:14,506 INFO views update_user 79 User updated successfully.
+2021-12-08 01:20:14,508 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:20:14] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:20:19,487 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:20:19,519 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140430111045376 and this is thread id 140430251888768.
+2021-12-08 01:20:19,520 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fb86fed9730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140430111045376 and this is thread id 140430251888768.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140430111045376 and this is thread id 140430251888768.
+2021-12-08 01:20:19,553 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:20:19,821 INFO settings <module> 17 Logging started
+2021-12-08 01:20:19,830 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:20:19,834 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:20:22,248 ERROR views update_user 83 User with params {'username': 'Updatedusername'} not loaded with exception: Class 'builtins.int' is not mapped
+2021-12-08 01:20:22,249 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:20:22] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:22:44,253 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:22:44,284 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139694789527296 and this is thread id 139694930370688.
+2021-12-08 01:22:44,285 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f0d3b59a730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139694789527296 and this is thread id 139694930370688.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139694789527296 and this is thread id 139694930370688.
+2021-12-08 01:22:44,320 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:22:44,610 INFO settings <module> 17 Logging started
+2021-12-08 01:22:44,620 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:22:44,625 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:22:51,615 ERROR views update_user 84 User with params {'username': 'Updatedusername'} not loaded with exception: name 'update' is not defined
+2021-12-08 01:22:51,619 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:22:51] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:25:38,382 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:25:38,446 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:25:38,717 INFO settings <module> 17 Logging started
+2021-12-08 01:25:38,726 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:25:38,731 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:25:41,767 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:25:41,837 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:25:42,115 INFO settings <module> 17 Logging started
+2021-12-08 01:25:42,124 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:25:42,128 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:25:44,380 ERROR views update_user 85 User with params {'username': 'Updatedusername'} not loaded with exception: type object 'User' has no attribute 'update'
+2021-12-08 01:25:44,380 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:25:44] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:28:49,850 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:28:49,915 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:28:50,186 INFO settings <module> 17 Logging started
+2021-12-08 01:28:50,195 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:28:50,199 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:31:17,635 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:31:17,694 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:31:18,054 INFO settings <module> 17 Logging started
+2021-12-08 01:31:18,069 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:31:18,078 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:31:20,306 ERROR views update_user 78 User with params {'username': 'Updatedusername'} not loaded with exception: type object 'User' has no attribute 'query'
+2021-12-08 01:31:20,307 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:31:20] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:34:35,003 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:34:35,068 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:34:35,341 INFO settings <module> 17 Logging started
+2021-12-08 01:34:35,350 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:34:35,355 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:34:36,375 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:34:36,439 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:34:36,741 INFO settings <module> 17 Logging started
+2021-12-08 01:34:36,750 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:34:36,754 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:34:38,247 ERROR views update_user 78 User with params {'username': 'Updatedusername'} not loaded with exception: type object 'User' has no attribute 'query'
+2021-12-08 01:34:38,248 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:34:38] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:34:43,569 INFO settings <module> 17 Logging started
+2021-12-08 01:34:43,579 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-08 01:34:43,579 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-08 01:34:43,579 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:34:43,852 INFO settings <module> 17 Logging started
+2021-12-08 01:34:43,861 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:34:43,867 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:34:45,843 ERROR views update_user 78 User with params {'username': 'Updatedusername'} not loaded with exception: type object 'User' has no attribute 'query'
+2021-12-08 01:34:45,844 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:34:45] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:35:09,118 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/models.py', reloading
+2021-12-08 01:35:09,185 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:35:09,470 INFO settings <module> 17 Logging started
+2021-12-08 01:35:09,479 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:35:09,484 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:35:14,372 INFO settings <module> 17 Logging started
+2021-12-08 01:35:14,384 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-08 01:35:14,384 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-08 01:35:14,384 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:35:14,663 INFO settings <module> 17 Logging started
+2021-12-08 01:35:14,672 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:35:14,677 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:35:16,612 ERROR views update_user 78 User with params {'username': 'Updatedusername'} not loaded with exception: type object 'User' has no attribute 'query'
+2021-12-08 01:35:16,612 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:35:16] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:35:25,808 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/models.py', reloading
+2021-12-08 01:35:25,876 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:35:26,141 INFO settings <module> 17 Logging started
+2021-12-08 01:35:26,150 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:35:26,154 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:37:32,325 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:37:32,390 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:37:32,652 INFO settings <module> 17 Logging started
+2021-12-08 01:37:32,661 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:37:32,666 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:37:33,678 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:37:33,729 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:37:34,001 INFO settings <module> 17 Logging started
+2021-12-08 01:37:34,010 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:37:34,014 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:37:34,721 ERROR views update_user 78 User with params {'username': 'Updatedusername'} not loaded with exception: type object 'User' has no attribute 'query'
+2021-12-08 01:37:34,724 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:37:34] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:38:32,647 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:38:32,716 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:38:32,991 INFO settings <module> 17 Logging started
+2021-12-08 01:38:33,000 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:38:33,005 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:39:23,537 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:39:23,598 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:39:23,879 INFO settings <module> 17 Logging started
+2021-12-08 01:39:23,888 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:39:23,893 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:39:50,202 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:39:50,268 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:39:50,559 INFO settings <module> 17 Logging started
+2021-12-08 01:39:50,570 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:39:50,576 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:39:52,606 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:39:52,677 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:39:52,963 INFO settings <module> 17 Logging started
+2021-12-08 01:39:52,973 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:39:52,980 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:39:57,266 ERROR views update_user 81 User with params {'username': 'Updatedusername'} not loaded with exception: name 'db_session' is not defined
+2021-12-08 01:39:57,267 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:39:57] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:40:11,183 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:40:11,229 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:40:11,508 INFO settings <module> 17 Logging started
+2021-12-08 01:40:11,518 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:40:11,522 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:40:13,197 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:40:13] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:40:18,288 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:40:18] "GET /users/1 HTTP/1.1" 200 -
+2021-12-08 01:42:34,052 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:42:34,083 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140015919740672 and this is thread id 140016060584064.
+2021-12-08 01:42:34,085 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f580033d730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140015919740672 and this is thread id 140016060584064.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140015919740672 and this is thread id 140016060584064.
+2021-12-08 01:42:34,118 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:42:34,376 INFO settings <module> 17 Logging started
+2021-12-08 01:42:34,385 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:42:34,390 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:42:42,474 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:42:42,540 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:42:42,819 INFO settings <module> 17 Logging started
+2021-12-08 01:42:42,828 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:42:42,833 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:42:45,875 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:42:45,941 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:42:46,209 INFO settings <module> 17 Logging started
+2021-12-08 01:42:46,218 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:42:46,222 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:42:52,999 ERROR views update_user 88 User with params {'username': 'Updatedusername'} not loaded with exception: 'User' object has no attribute 'update'
+2021-12-08 01:42:53,000 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:42:53] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:44:05,033 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:44:05,065 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140538830165760 and this is thread id 140538971009152.
+2021-12-08 01:44:05,066 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fd1c017b730>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140538830165760 and this is thread id 140538971009152.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140538830165760 and this is thread id 140538971009152.
+2021-12-08 01:44:05,101 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:44:05,374 INFO settings <module> 17 Logging started
+2021-12-08 01:44:05,382 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:44:05,387 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:44:09,710 ERROR views update_user 85 User with params {'username': 'Updatedusername'} not loaded with exception: 'dict' object has no attribute 'iteritems'
+2021-12-08 01:44:09,711 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:44:09] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:44:46,777 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:44:46,809 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140574448670464 and this is thread id 140574589513856.
+2021-12-08 01:44:46,810 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fda0b1ef810>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140574448670464 and this is thread id 140574589513856.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140574448670464 and this is thread id 140574589513856.
+2021-12-08 01:44:46,849 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:44:47,120 INFO settings <module> 17 Logging started
+2021-12-08 01:44:47,129 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:44:47,134 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:44:48,689 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:44:48] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:44:55,259 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:44:55] "GET /users/1 HTTP/1.1" 200 -
+2021-12-08 01:45:41,696 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:45:41] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:45:43,576 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:45:43] "GET /users/1 HTTP/1.1" 200 -
+2021-12-08 01:46:10,940 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:46:10,962 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139992915506944 and this is thread id 139993128988800.
+2021-12-08 01:46:10,963 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f52a95f7ab0>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139992915506944 and this is thread id 139993128988800.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139992915506944 and this is thread id 139993128988800.
+2021-12-08 01:46:10,995 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:46:11,275 INFO settings <module> 17 Logging started
+2021-12-08 01:46:11,284 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:46:11,288 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:46:13,547 ERROR views update_user 85 User with params {'username': 'Updateduse', 'email': 'bliad'} not loaded with exception: Object of type set is not JSON serializable
+2021-12-08 01:46:13,548 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:46:13] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:46:35,556 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:46:35,626 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:46:35,904 INFO settings <module> 17 Logging started
+2021-12-08 01:46:35,914 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:46:35,918 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:46:36,758 ERROR views update_user 85 User with params {'username': 'Updateduse', 'email': 'bliad'} not loaded with exception: unhashable type: 'dict'
+2021-12-08 01:46:36,759 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:46:36] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:47:56,739 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:47:56,761 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140219761198848 and this is thread id 140219902042240.
+2021-12-08 01:47:56,763 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7f877619a650>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140219761198848 and this is thread id 140219902042240.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140219761198848 and this is thread id 140219902042240.
+2021-12-08 01:47:56,801 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:47:57,072 INFO settings <module> 17 Logging started
+2021-12-08 01:47:57,081 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:47:57,085 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:47:59,616 ERROR views update_user 85 Update failed with exception: unhashable type: 'dict'
+2021-12-08 01:47:59,617 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:47:59] "[31m[1mPUT /users/1 HTTP/1.1[0m" 400 -
+2021-12-08 01:48:15,266 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:48:15,299 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140396486305536 and this is thread id 140396627148928.
+2021-12-08 01:48:15,300 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fb09bbcc650>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140396486305536 and this is thread id 140396627148928.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140396486305536 and this is thread id 140396627148928.
+2021-12-08 01:48:15,335 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:48:15,607 INFO settings <module> 17 Logging started
+2021-12-08 01:48:15,616 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:48:15,621 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:48:17,773 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 01:48:17] "[35m[1mPUT /users/1 HTTP/1.1[0m" 201 -
+2021-12-08 01:48:25,728 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:48:25,761 ERROR base _finalize_fairy 709 Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140412077471488 and this is thread id 140412289708160.
+2021-12-08 01:48:25,762 ERROR base _close_connection 247 Exception closing connection <sqlite3.Connection object at 0x7fb4414c7650>
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 682, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 887, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 667, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140412077471488 and this is thread id 140412289708160.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 244, in _close_connection
+    self._dialect.do_close(connection)
+  File "/home/admin-pc/.local/share/virtualenvs/api-Al0fEWBB/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 673, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 140412077471488 and this is thread id 140412289708160.
+2021-12-08 01:48:25,797 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:48:26,058 INFO settings <module> 17 Logging started
+2021-12-08 01:48:26,067 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:48:26,072 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:49:07,513 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:49:07,580 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:49:07,843 INFO settings <module> 17 Logging started
+2021-12-08 01:49:07,852 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:49:07,857 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:49:51,351 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:49:51,416 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:49:51,678 INFO settings <module> 17 Logging started
+2021-12-08 01:49:51,687 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:49:51,692 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:50:08,854 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:50:08,901 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:50:09,175 INFO settings <module> 17 Logging started
+2021-12-08 01:50:09,184 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:50:09,189 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 01:50:18,283 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 01:50:18,350 INFO _internal _log 225  * Restarting with stat
+2021-12-08 01:50:18,606 INFO settings <module> 17 Logging started
+2021-12-08 01:50:18,615 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 01:50:18,620 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 02:04:54,442 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 02:04:54,517 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:04:54,902 INFO settings <module> 17 Logging started
+2021-12-08 02:04:54,915 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:04:54,923 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 02:04:59,982 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 02:05:00,057 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:05:00,420 INFO settings <module> 17 Logging started
+2021-12-08 02:05:00,432 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:05:00,440 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 02:05:47,989 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 02:05:48,060 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:05:48,392 INFO settings <module> 17 Logging started
+2021-12-08 02:05:48,404 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:05:48,410 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 02:05:50,440 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 02:05:50,507 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:05:50,863 INFO settings <module> 17 Logging started
+2021-12-08 02:05:50,875 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:05:50,880 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 02:05:53,913 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 02:05:53,987 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:05:54,338 INFO settings <module> 17 Logging started
+2021-12-08 02:05:54,349 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:05:54,355 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 02:14:01,765 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 02:14:01,828 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:14:02,140 INFO settings <module> 17 Logging started
+2021-12-08 02:14:02,151 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:14:02,156 INFO _internal _log 225  * Debugger PIN: 383-385-616
+2021-12-08 02:21:35,565 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:21:35,568 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:21:35] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:27:43,623 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:27:43,624 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:27:43] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:28:04,125 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:28:04,126 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:28:04] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:28:11,389 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:28:11] "GET /users/1 HTTP/1.1" 200 -
+2021-12-08 02:28:17,298 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:28:17,298 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:28:17] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:28:51,342 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:28:51,343 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:28:51] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:28:53,335 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:28:53,336 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:28:53] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:29:03,572 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:29:03,572 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:29:03] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:29:48,544 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:29:48,545 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:29:48] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:41:27,933 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:41:27,934 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:41:27] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:42:01,518 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:42:01,519 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:42:01] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:42:01,527 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:42:01] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-08 02:42:12,125 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:42:12,125 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:42:12] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:42:12,134 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:42:12] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-08 02:42:48,609 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:42:48,611 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:42:48] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:42:48,625 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:42:48] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-08 02:48:13,737 INFO settings <module> 17 Logging started
+2021-12-08 02:48:13,749 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-08 02:48:13,749 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-08 02:48:13,750 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:48:14,068 INFO settings <module> 17 Logging started
+2021-12-08 02:48:14,078 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:48:14,085 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 02:48:18,609 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:48:18,610 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:48:18] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:48:18,618 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:48:18] "[35m[1mPOST /users HTTP/1.1[0m" 500 -
+2021-12-08 02:49:55,372 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 02:49:55,440 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:49:55,743 INFO settings <module> 17 Logging started
+2021-12-08 02:49:55,754 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:49:55,758 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 02:49:56,777 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 02:49:56,848 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:49:57,163 INFO settings <module> 17 Logging started
+2021-12-08 02:49:57,174 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:49:57,180 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 02:50:06,287 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 02:50:06,356 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:50:06,665 INFO settings <module> 17 Logging started
+2021-12-08 02:50:06,677 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:50:06,682 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 02:50:07,704 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 02:50:07,773 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:50:08,083 INFO settings <module> 17 Logging started
+2021-12-08 02:50:08,095 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:50:08,100 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 02:50:19,563 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:50:19,563 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:50:19] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:50:19,566 ERROR views create_new_user 35 User creation failed - wrong input data {'name': 'new_user', 'mail': 'test@mail.com'}
+2021-12-08 02:50:19,567 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:50:19] "[31m[1mPOST /users HTTP/1.1[0m" 400 -
+2021-12-08 02:50:38,646 INFO settings <module> 17 Logging started
+2021-12-08 02:50:38,656 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-08 02:50:38,656 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-08 02:50:38,657 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:50:38,968 INFO settings <module> 17 Logging started
+2021-12-08 02:50:38,980 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:50:38,985 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 02:50:44,430 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:50:44,431 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:50:44] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:50:44,434 ERROR views create_new_user 35 User creation failed - wrong input data {'name': 'new_user', 'mail': 'test@mail.com'}
+2021-12-08 02:50:44,434 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:50:44] "[31m[1mPOST /users HTTP/1.1[0m" 400 -
+2021-12-08 02:50:49,121 INFO views create_new_user 27 New user new_user created.
+2021-12-08 02:50:49,121 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:50:49] "[35m[1mPOST /users HTTP/1.1[0m" 201 -
+2021-12-08 02:50:49,125 ERROR views create_new_user 35 User creation failed - wrong input data {'name': 'new_user', 'mail': 'test@mail.com'}
+2021-12-08 02:50:49,125 INFO _internal _log 225 127.0.0.1 - - [08/Dec/2021 02:50:49] "[31m[1mPOST /users HTTP/1.1[0m" 400 -
+2021-12-08 02:50:56,163 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 02:50:56,230 INFO _internal _log 225  * Restarting with stat
+2021-12-08 02:50:56,539 INFO settings <module> 17 Logging started
+2021-12-08 02:50:56,550 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 02:50:56,555 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 03:01:33,364 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 03:01:33,433 INFO _internal _log 225  * Restarting with stat
+2021-12-08 03:01:33,710 INFO settings <module> 17 Logging started
+2021-12-08 03:01:33,719 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 03:01:33,724 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 03:02:44,508 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 03:02:44,576 INFO _internal _log 225  * Restarting with stat
+2021-12-08 03:02:44,864 INFO settings <module> 17 Logging started
+2021-12-08 03:02:44,874 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 03:02:44,879 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 03:03:29,362 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 03:03:29,425 INFO _internal _log 225  * Restarting with stat
+2021-12-08 03:03:29,724 INFO settings <module> 17 Logging started
+2021-12-08 03:03:29,738 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 03:03:29,745 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 03:03:45,937 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 03:03:46,006 INFO _internal _log 225  * Restarting with stat
+2021-12-08 03:03:46,277 INFO settings <module> 17 Logging started
+2021-12-08 03:03:46,286 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 03:03:46,290 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 03:03:55,400 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 03:03:55,472 INFO _internal _log 225  * Restarting with stat
+2021-12-08 03:03:55,764 INFO settings <module> 17 Logging started
+2021-12-08 03:03:55,774 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 03:03:55,779 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 03:04:01,854 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 03:04:01,925 INFO _internal _log 225  * Restarting with stat
+2021-12-08 03:04:02,212 INFO settings <module> 17 Logging started
+2021-12-08 03:04:02,222 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 03:04:02,227 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 03:04:08,307 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 03:04:08,376 INFO _internal _log 225  * Restarting with stat
+2021-12-08 03:04:08,648 INFO settings <module> 17 Logging started
+2021-12-08 03:04:08,657 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 03:04:08,663 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 04:04:09,700 INFO settings <module> 17 Logging started
+2021-12-08 04:04:41,253 INFO settings <module> 17 Logging started
+2021-12-08 04:05:15,156 INFO settings <module> 17 Logging started
+2021-12-08 04:05:15,174 WARNING _internal _log 225  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-12-08 04:05:15,174 INFO _internal _log 225  * Running on http://192.168.1.6:5000/ (Press CTRL+C to quit)
+2021-12-08 04:05:15,175 INFO _internal _log 225  * Restarting with stat
+2021-12-08 04:05:15,493 INFO settings <module> 17 Logging started
+2021-12-08 04:05:15,507 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 04:05:15,516 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 04:08:37,868 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 04:08:37,938 INFO _internal _log 225  * Restarting with stat
+2021-12-08 04:08:38,263 INFO settings <module> 17 Logging started
+2021-12-08 04:08:38,275 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 04:08:38,281 INFO _internal _log 225  * Debugger PIN: 119-655-112
+2021-12-08 04:08:53,461 INFO _internal _log 225  * Detected change in '/home/admin-pc/egor/winterorbit/QA-automation Lessons/QA-Automation/qa_automation_lessons/lesson_1/api/views.py', reloading
+2021-12-08 04:08:53,532 INFO _internal _log 225  * Restarting with stat
+2021-12-08 04:08:53,883 INFO settings <module> 17 Logging started
+2021-12-08 04:08:53,894 WARNING _internal _log 225  * Debugger is active!
+2021-12-08 04:08:53,900 INFO _internal _log 225  * Debugger PIN: 119-655-112
