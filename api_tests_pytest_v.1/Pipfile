@@ -4,12 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-requests = "*"
-flask = "*"
 python-json-logger = "*"
+requests = "*"
 pytest = "*"
-sqlalchemy = "*"
-pylint = "*"
+allure-pytest = "*"
 
 [requires]
 python_version = "3.8"
