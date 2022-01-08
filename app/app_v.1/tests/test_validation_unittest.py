@@ -7,7 +7,7 @@ sys.path.insert(1, p)
 
 from api.validation import check_email
 
-class TestStringMethods(unittest.TestCase):
+class TestEmailValidation(unittest.TestCase):
 
 	def test_validate_valid_email(self):
 		valid_email = "myemail@gmail.com"
@@ -21,4 +21,3 @@ class TestStringMethods(unittest.TestCase):
 
 if __name__ == '__main__':
 	unittest.main()
-

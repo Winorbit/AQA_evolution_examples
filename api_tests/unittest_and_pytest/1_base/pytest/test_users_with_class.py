@@ -7,14 +7,11 @@ import pytest
 from settings import root_url, headers, create_user_payload, create_user_invalid_payload
 
 get_user_expected_status = 200
-
-create_user_expected_status = 201
-update_user_expected_status = 201
-
-create_user_fail_status = 400
-update_user_fail_status = 400
+create_user_expected_status, update_user_expected_status = 201, 201
+create_user_fail_status, update_user_fail_status = 400, 400
 
 users_url = f"{root_url}/users"
+
 
 class TestUsers:
 	
@@ -62,6 +59,7 @@ class TestUsers:
 		assert body == user
 
 	#without self
+	"""
 	def test_update_user_invalid_data():
 		users = requests.get(users_url).json()
 		if users:
@@ -75,4 +73,5 @@ class TestUsers:
 		user_url = f"{users_url}/{user_id}"
 		update_user_res = requests.put(user_url, data=json.dumps(user), headers=headers)
 		assert update_user_res.status_code == update_user_fail_status
+	"""
 	

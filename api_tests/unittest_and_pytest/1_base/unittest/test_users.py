@@ -47,20 +47,20 @@ class TestUsers(unittest.TestCase):
 		self.assertTrue(type(body) is list)
 			
 
-	def test_with_errors_in_code(self):
-		res = requests.get(self.users_url)
-		body = res.json()
-		# нет self.
-		assertTrue(type(body) is list)
+	# def test_with_errors_in_code(self):
+	# 	res = requests.get(self.users_url)
+	# 	body = res.json()
+	# 	# нет self.
+	# 	assertTrue(type(body) is list)
 
-
+	
 	@unittest.skip("This test skipped")
 	def test_with_errors_in_code_skipped(self):
 		res = requests.get(self.users_url)
 		body = res.json()
 		self.assertTrue(type(body) is list)
 
- 	#@unittest.skipIf(env == "dev", "skip for DEV-env")
+	#@unittest.skipIf(env == "dev", "skip for DEV-env")
 
 	def test_update_user_check_by_status():
 		users_url = f"{root_url}/users"
@@ -140,6 +140,7 @@ class TestUsers(unittest.TestCase):
 	def test_endpoint_not_exist(self):
 		res = requests.get(root_url)
 		self.assertEqual(res.status_code, 200)
+	
 
 
 if __name__ == '__main__':

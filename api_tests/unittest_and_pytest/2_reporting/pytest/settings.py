@@ -1,6 +1,6 @@
 host = "http://localhost"
 port = "5000"
-
+root_url = f"{host}:{port}"
 headers = {'Content-type': 'application/json', 
            'Accept': 'application/json'}
 
