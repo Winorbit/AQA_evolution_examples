@@ -26,7 +26,7 @@ def test_create_user_invalid_data():
 	status = res.status_code
 	assert res.status_code == create_user_fail_status
 
-
+@pytest.mark.custom_marker
 def test_get_users():
 	res = requests.get(users_url)
 	body = res.json()
@@ -56,7 +56,7 @@ def test_update_user():
 	assert body == user
 
 
-@pytest.mark.mymark
+@pytest.mark.my_unregistered_mark
 def test_update_user_invalid_data():
 	users_url = f"{root_url}/users"
 	users = requests.get(users_url).json()
@@ -80,10 +80,14 @@ def test_skip():
 """
 pytest
 pytest -v
+
 pytest test_users.py
 pytest test_users.py -v
-pytest -k us -v
-pytest -v -m mymark
-"""
 
-You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+pytest -k us -v
+pytest -m my_unregistered_mark
+pytest -v -m my_unregistered_mark
+pytest -v -m custom_marker
+
+pytest --markers
+"""
