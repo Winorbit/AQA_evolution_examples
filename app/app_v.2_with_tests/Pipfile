@@ -4,11 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+flask = "*"
+flask-restx = "*"
+sqlalchemy = "*"
 python-json-logger = "*"
-requests = "*"
-html-testrunner = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"
 
 [dev-packages]

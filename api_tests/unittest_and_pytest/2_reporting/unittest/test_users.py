@@ -8,17 +8,12 @@ import HtmlTestRunner
 from settings import headers, create_user_payload, create_user_invalid_payload, root_url
 
 get_user_expected_status = 200
-
-create_user_expected_status = 201
-update_user_expected_status = 201
-
-create_user_fail_status = 400
-update_user_fail_status = 400
+create_user_expected_status, update_user_expected_status = 201, 201
+create_user_fail_status, update_user_fail_status = 400, 400
 
 
 class TestUsers(unittest.TestCase):
 	users_url = f"{root_url}/users"
-
 
 	def test_create_user(self):
 		res = requests.post(self.users_url, data=json.dumps(create_user_payload), headers=headers)
@@ -129,9 +124,10 @@ python test_users.py
 python test_users.py -v
 
 Папка автоматом генерится как reports, на каждый запуск - новый html
+ТестРаннер?
 """
 
 if __name__ == '__main__':
-	#unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner())
-	#unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="my_reports_dir"))
-	unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(report_name="MyReport", output="my_reports_dir"))
+	unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner())
+	# unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="my_reports_dir"))
+	# unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(report_name="MyReport", output="my_reports_dir"))

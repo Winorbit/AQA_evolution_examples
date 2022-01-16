@@ -97,3 +97,17 @@ def test_to_fail():
 @pytest.mark.skip(reason="skiping example")					
 def test_skip():
 	assert 4 == 4
+
+# pytest -h
+# --pdb
+# --css=path 
+# !!! - ниже именнно МОДУЛЬ, а не сам Пайтест!!
+# https://pytest-html.readthedocs.io/en/latest/user_guide.html
+# pytest --html=report.html --self-contained-html
+# pytest --html=myreport.html --self-contained-html
+# pytest --html=report.html --css=highcontrast.css --css=accessible.css
+
+
+
+# pytest test_users.py --alluredir=./report
+# allure serve report
