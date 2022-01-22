@@ -1,9 +1,9 @@
+import json
+import sys
+
 from flask import Flask, request, jsonify
 from flask_restx import Resource, Api, fields
 from sqlalchemy.orm import sessionmaker
-
-import json
-import sys
 
 called_from = sys.modules['__main__'].__file__
 if "unittest" in called_from or "pytest" in called_from:
@@ -14,7 +14,6 @@ else:
     from models import engine, Post, User, DeclarativeBase
     from settings import logger
     from validation import check_email
-
 
 DeclarativeBase.metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
@@ -115,10 +114,10 @@ class SingleUser(Resource):
         
         if email:
             if not check_email(email):
-                message = f"User creation failed - invalid emai {email}"
+                message = f"User update failed - invalid emai {email}"
                 logger.error(message)
                 res = {"error_message": message}
-                return res, 400
+                return res, 422
         try:
             db_session = Session()
             new_user = db_session.query(User).filter(User.id == user_id).first()

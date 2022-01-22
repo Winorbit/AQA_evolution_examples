@@ -8,6 +8,7 @@ flask = "*"
 flask-restx = "*"
 sqlalchemy = "*"
 python-json-logger = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.7"

@@ -13,8 +13,6 @@ from api.views import app
 from api.models import User, DeclarativeBase as db
 from .settings import headers, create_user_payload, create_user_invalid_payload
 
-basedir = os.path.abspath(os.getcwd())
-
 class TestAPI(unittest.TestCase):
 	def setUp(self):
 		print("SetUp test data...")

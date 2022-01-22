@@ -1,19 +1,38 @@
-# Test API for learn QA-Automation testing
+# Тестовое приложение-блог для практики в обучении автоматизации тестирования
 
-# How to run
+## Необоходимое для запуска
+В контейнере:
+ - Docker
+ - docker-compose
 
-## via pipenv 
-```sh
-pipenv shell
-pipenv install
-python run.py
+В виртуальном окружении Python:
+- Python 3.5+
+- pipenv
+
+## Запуск API в контейнере.
+
+```bash
+pipenv run pip freeze > requirements.txt
+
+docker-compose up --build
+или через суперюзера
+sudo docker-compose up --build
+
 ```
 
-# Routes (Available on localhost:5000)
-### /users [post - create, get - all users]
-### /users/id
-### /posts [post - create, get - all users]
-### /posts/id
+## Запуск API через pipenv.
+```bash
+pipenv shell
+pipenv install
+python api/run.py
+```
 
-Tests
-python -m unittest tests/test_validation_unittest.py 
+
+## Запуск тестов
+
+### Через unittest
+- python -m unittest tests.unittests.test_validation_unittest
+
+### Через pytest
+- cd tests/pytest
+- pytest -v

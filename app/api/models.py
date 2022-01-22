@@ -1,8 +1,16 @@
+import sys
+
 from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 
+called_from = sys.modules['__main__'].__file__
+if "unittest" in called_from or "pytest" in called_from:
+    from .settings import DB_PATH
+else:
+    from settings import DB_PATH
+
 DeclarativeBase = declarative_base()
-engine = create_engine('sqlite:///test_base.db')  
+engine = create_engine(DB_PATH)  
 
 class User(DeclarativeBase):
     __tablename__ = 'users'
@@ -18,13 +26,10 @@ class User(DeclarativeBase):
     @property
     def serialize(self):
        """Return object data in easily serializable format"""
-       return {
-           'id': self.id,
-           'username': self.username,
-           'email': self.email,
-           'password': self.password,
-       }
-
+       return {'id': self.id,
+               'username': self.username,
+               'email': self.email,
+               'password': self.password,}
 
 class Post(DeclarativeBase):
     __tablename__ = 'posts'
@@ -40,9 +45,7 @@ class Post(DeclarativeBase):
     @property
     def serialize(self):
        """Return object data in easily serializable format"""
-       return {
-           'id': self.id,
-           'title': self.title,
-           'text': self.text,
-           'author_id': self.author_id,
-       }
+       return {'id': self.id,
+               'title': self.title,
+               'text': self.text,
+               'author_id': self.author_id,}
