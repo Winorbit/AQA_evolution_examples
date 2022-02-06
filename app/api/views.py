@@ -136,8 +136,31 @@ class SingleUser(Resource):
             return res, 400
 
 
+@api.route("/login")
+class Authorization(Resource):
+    @api.expect(user_payload)
+    def post(self): 
+        content = request.get_json()
+        try:
+            db_session = Session()
+            user = db_session.query(User).filter_by(**content).first()
+            if user:
+                res = {"user_exist": True, "user_id":user.id}
+                return res, 200
+            else:
+                res = {"user_exist": False, "user_id":None}
+                return res, 400
+        except Exception as e:
+            message = f"Something went wrong: {e}"
+            logger.error(message)
+            res = {"error_message": message}
+            return res, 400
+
+
+
+
 @api.route('/posts')
-class Users(Resource):
+class Posts(Resource):
     @api.expect(post_payload)
     def post(self):
         content = request.get_json()

@@ -54,22 +54,20 @@ def signup():
 @app.route("/login", methods = ["get", "post"])
 def login():
     if request.method == 'POST':
-        username = request.form.get('username') 
-        password = request.form.get('password')
-        email = request.form.get('email')
-        if username and password and email:
-            try:
-                url = f"{API_URL}/users/user_by_name/{username}"
-                res = requests.get(url)
-                if res.status_code in OK_CODES:
-                    session['username'] = username
-                    session["user_id"] = res.json().get("id")
+        url = f"{API_URL}/login"
+        try:
+            res = requests.post(url, json={**request.form})
+            if res.status_code in OK_CODES:
+                if res.json().get("user_exist"):
+                    user_id = res.json().get("user_id")
+                    session["user_id"] = user_id
+                    print("!!!!!!!!!!!!!!", user_id)
                     return redirect(url_for('my_cabinet'))
                 else:
                     message = "Проверьте правильность введенных данных."
                     return render_template('user/login.html', message=message)
-            except Exception as e:
-                raise Exception(f"Something wrong with login user {dict(request.form)}: {e}")
+        except Exception as e:
+            raise Exception(f"Something wrong with login user {dict(request.form)}: {e}")
     else:
         message = "Введите данные для того, чтобы войти в личный кабинет."
         return render_template('user/login.html', message=message)
@@ -83,18 +81,15 @@ def logout():
 
 @app.route("/cabinet", methods = ["get", "post"])
 def my_cabinet():
-    username = session.get("username")
     user_id = session.get("user_id")
-    if username and user_id:
+    url = f"{API_URL}/posts"
+    if user_id:
         if request.method == 'POST':
             title = request.form.get('title') 
             text = request.form.get('post_text')
             if title and text:
                 try:
-                    create_post_url = f"{API_URL}/posts/create_post"
-                    res = requests.post(create_post_url, json={"title":title,
-                                                                "text":text,
-                                                                "author": user_id})
+                    res = requests.post(url, json={"title":title, "text":text, "author_id": int(user_id)})
                     if res.status_code in OK_CODES:
                         post_id = res.json().get("id")
                         new_post_url = f""
@@ -103,6 +98,7 @@ def my_cabinet():
                         error_message = "Что-то пошло не так, попробуйте еще перезайти в кабинет."
                         return render_template('error_page.html',error_message=error_message)
                 except Exception as e:
+
                     return render_template('error_page.html',error_message=e)
         else:
             return render_template('user/cabinet.html')
