@@ -34,4 +34,4 @@ def test_example_work_with_test_database(sqlite_session_fixture):
 	res = sqlite_session_fixture.query(User).all()
 	users = [user.serialize for user in res]
 	# Теперь assert падает - ведь мы добавили нового юзера в тестовую базу
-	# assert users == []
+	assert users == []
